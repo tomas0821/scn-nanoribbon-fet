@@ -1,0 +1,20 @@
+&control
+  calculation='scf', prefix='bulk_nc110_a4.60', outdir='./tmp_bulk_nc110_a4.60', pseudo_dir='/path/to/scn_fet/pseudo',
+  tstress=.true., tprnfor=.true., verbosity='high', max_seconds=80000
+/
+&system
+  ibrav=2, celldm(1)=8.6927401733, nat=2, ntyp=2,
+  ecutwfc=110, ecutrho=440,
+  occupations='smearing', smearing='mv', degauss=0.01, nbnd=16
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.5
+/
+ATOMIC_SPECIES
+  Sc 44.955908 Sc_ONCV_PBE-1.0.oncvpsp.upf
+  N  14.007 N.oncvpsp.upf
+ATOMIC_POSITIONS crystal
+  Sc 0.0 0.0 0.0
+  N  0.5 0.5 0.5
+K_POINTS automatic
+  12 12 12 0 0 0

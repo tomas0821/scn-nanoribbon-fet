@@ -1,0 +1,31 @@
+{
+ "rotation PBE": {
+  "max_dev_eV": 1.0658141036401503e-14,
+  "unrotated_dev_eV": 0.09246453790979015,
+  "ok": true
+ },
+ "rotation HSE06": {
+  "max_dev_eV": 1.7763568394002505e-14,
+  "unrotated_dev_eV": 1.5548007809157447,
+  "ok": true
+ },
+ "onsite_const": {
+  "site": 0,
+  "ok": true
+ },
+ "edge map r110_8 \u2190 r110_4": {
+  "n_edge_atoms": 4,
+  "max_env_dev_A": 0.010172386256318104,
+  "ok": true
+ },
+ "edge map r100_6 \u2190 r100_3": {
+  "n_edge_atoms": 8,
+  "max_env_dev_A": 0.002499047750070522,
+  "ok": true
+ },
+ "slab surface sites": {
+  "n": 4,
+  "of": 6,
+  "ok": true
+ }
+}

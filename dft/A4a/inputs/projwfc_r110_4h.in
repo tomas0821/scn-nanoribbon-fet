@@ -1,0 +1,4 @@
+&projwfc
+  prefix='nm_r110_4h', outdir='./tmp_nm_r110_4h',
+  filpdos='pdos_r110_4h', degauss=0.005, DeltaE=0.01, kresolveddos=.true.
+/

@@ -1,0 +1,97 @@
+{
+ "pbe_gi": {
+  "max_meV": 358.6,
+  "rms_meV": 16.86,
+  "n_over_20meV": 31,
+  "worst": {
+   "k": 56,
+   "band": 13
+  },
+  "passes": false,
+  "max_vb_meV": 22.8,
+  "max_le_2p5_meV": 2.9,
+  "max_le_4p0_meV": 23.0
+ },
+ "pbe_ws": {
+  "max_meV": 357.0,
+  "rms_meV": 16.85,
+  "n_over_20meV": 34,
+  "worst": {
+   "k": 56,
+   "band": 13
+  },
+  "passes": false,
+  "max_vb_meV": 25.4,
+  "max_le_2p5_meV": 8.3,
+  "max_le_4p0_meV": 25.4
+ },
+ "pbe9": {
+  "max_meV": 297.5,
+  "rms_meV": 42.52,
+  "n_over_20meV": 221,
+  "worst": {
+   "k": 142,
+   "band": 7
+  },
+  "passes": false,
+  "max_vb_meV": 297.5,
+  "max_le_2p5_meV": 34.9,
+  "max_le_4p0_meV": 297.5,
+  "ninth_band_rel_vbm_min_max": [
+   5.88,
+   13.12
+  ]
+ },
+ "pbe9_ws": {
+  "max_meV": 372.7,
+  "rms_meV": 47.66,
+  "n_over_20meV": 268,
+  "worst": {
+   "k": 140,
+   "band": 7
+  },
+  "passes": false,
+  "max_vb_meV": 372.7,
+  "max_le_2p5_meV": 46.6,
+  "max_le_4p0_meV": 372.7
+ },
+ "pbe_mlwf": {
+  "max_meV": 356.9,
+  "rms_meV": 16.76,
+  "n_over_20meV": 36,
+  "worst": {
+   "k": 56,
+   "band": 13
+  },
+  "passes": false,
+  "max_vb_meV": 12.6,
+  "max_le_2p5_meV": 2.6,
+  "max_le_4p0_meV": 31.2
+ },
+ "pbe_k12": {
+  "max_meV": 166.2,
+  "rms_meV": 6.53,
+  "n_over_20meV": 8,
+  "worst": {
+   "k": 56,
+   "band": 13
+  },
+  "passes": false,
+  "max_vb_meV": 9.9,
+  "max_le_2p5_meV": 0.9,
+  "max_le_4p0_meV": 9.9
+ },
+ "pbe_k16": {
+  "max_meV": 51.1,
+  "rms_meV": 2.59,
+  "n_over_20meV": 4,
+  "worst": {
+   "k": 56,
+   "band": 13
+  },
+  "passes": false,
+  "max_vb_meV": 6.8,
+  "max_le_2p5_meV": 0.8,
+  "max_le_4p0_meV": 6.8
+ }
+}

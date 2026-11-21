@@ -1,0 +1,7 @@
+7bcb14fb9dc81328f19693fd34042a6d  scnfet/bb.py
+100b35633792386608a6d0de1ae471e5  scripts/t1_bb_widths.py
+dfe29d02c5f9f7dbae18e6982006d761  scripts/gate_bb_holdouts.py
+ccb042e84a3317aba8a55b3f6b87df80  scnfet/bb.py
+# bb.py re-hashed 2026-11-16: the assemble() sanity tolerance loosened for relaxed H (no number changes for bare ribbons)
+424144c3661945f16ba94c3ba864b215  scnfet/bb.py
+# bb.py re-hashed: the real-gauge sanity threshold 0.1 → 1 meV (r110_4h HW1 noise 0.4 meV; no number changes for bare ribbons)

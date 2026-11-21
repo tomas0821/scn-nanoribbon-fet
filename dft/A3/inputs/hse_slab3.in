@@ -1,0 +1,29 @@
+&control
+  calculation='scf', prefix='hse_slab3', outdir='./tmp_hse_slab3', pseudo_dir='/path/to/scn_fet/pseudo',
+  verbosity='high', max_seconds=80000
+/
+&system
+  ibrav=0, nat=6, ntyp=2,
+  ecutwfc=80, ecutrho=320,
+  occupations='fixed', nbnd=84,
+  input_dft='hse', nqx1=8, nqx2=8, nqx3=1, ecutfock=160
+/
+&electrons
+  conv_thr=1.0d-9, mixing_beta=0.4, diago_full_acc=.true.
+/
+ATOMIC_SPECIES
+  Sc  44.955908 Sc_ONCV_PBE-1.0.oncvpsp.upf
+  N   14.007 N.oncvpsp.upf
+CELL_PARAMETERS angstrom
+  3.1093329638 0.0000000000 0.0000000000
+  0.0000000000 3.1093329638 0.0000000000
+  0.0000000000 0.0000000000 24.3370000000
+ATOMIC_POSITIONS angstrom
+  Sc  0.0000000000 0.0000000000 9.9374016978
+  N   1.5546664819 1.5546664819 9.9230640125
+  N   0.0000000000 0.0000000000 12.1685000000
+  Sc  1.5546664819 1.5546664819 12.1685000000
+  Sc  0.0000000000 0.0000000000 14.3995983022
+  N   1.5546664819 1.5546664819 14.4139359875
+K_POINTS automatic
+  16 16 1 0 0 0

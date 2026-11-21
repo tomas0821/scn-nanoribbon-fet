@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../tmp_hse_nosym', prefix='hse_nosym', seedname='hse_n',
+  write_amn=.true., write_mmn=.true., write_unk=.false.
+/

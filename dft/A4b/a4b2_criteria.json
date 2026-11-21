@@ -1,0 +1,680 @@
+{
+ "r100_3": {
+  "W1": {
+   "H2": {
+    "max_meV": 0.27006061480383536,
+    "n": 290,
+    "ok": true
+   },
+   "gap_w90_path": 1.9643029824440237,
+   "vbm_k_frac": 0.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -0.19417830039996223,
+     "k_frac": 0.0,
+     "n_points": 17
+    },
+    "CB": {
+     "m": 0.2737797847867217,
+     "k_frac": 0.0,
+     "n_points": 20
+    }
+   },
+   "omega_total": 172.886134664,
+   "z2_offset_A": [
+    0.7325153403887152,
+    0.9151183983301581
+   ],
+   "z2_spread_A2": [
+    2.66363155,
+    3.19824067
+   ],
+   "extra": []
+  },
+  "W2": {
+   "H2": {
+    "max_meV": 0.27910362921135246,
+    "n": 254,
+    "ok": true
+   },
+   "gap_w90_path": 1.964306352796883,
+   "vbm_k_frac": 0.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -0.19411198960417222,
+     "k_frac": 0.0,
+     "n_points": 17
+    },
+    "CB": {
+     "m": 0.276313329345128,
+     "k_frac": 0.0,
+     "n_points": 20
+    }
+   },
+   "omega_total": 132.737008301,
+   "z2_offset_A": [
+    0.31307537945648906,
+    0.4089827613868672
+   ],
+   "z2_spread_A2": [
+    1.50324854,
+    1.69878023
+   ],
+   "extra": []
+  },
+  "W3": {
+   "H2": {
+    "max_meV": 0.2754963347424422,
+    "n": 290,
+    "ok": true
+   },
+   "gap_w90_path": 1.964305997614302,
+   "vbm_k_frac": 0.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -0.194221915047872,
+     "k_frac": 0.0,
+     "n_points": 17
+    },
+    "CB": {
+     "m": 0.27288416969855694,
+     "k_frac": 0.0,
+     "n_points": 20
+    }
+   },
+   "omega_total": 207.885672839,
+   "z2_offset_A": [
+    0.20138647674892168,
+    0.3379202530163221
+   ],
+   "z2_spread_A2": [
+    1.81662275,
+    2.09829215
+   ],
+   "extra": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "offset_A": 2.129,
+     "spread_A2": 4.36
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "offset_A": 2.909,
+     "spread_A2": 5.25
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "offset_A": 2.539,
+     "spread_A2": 5.64
+    },
+    {
+     "atom": 7,
+     "species": "Sc",
+     "offset_A": 2.539,
+     "spread_A2": 5.64
+    },
+    {
+     "atom": 8,
+     "species": "Sc",
+     "offset_A": 2.909,
+     "spread_A2": 5.25
+    },
+    {
+     "atom": 11,
+     "species": "Sc",
+     "offset_A": 2.129,
+     "spread_A2": 4.36
+    },
+    {
+     "atom": 13,
+     "species": "Sc",
+     "offset_A": 2.129,
+     "spread_A2": 4.36
+    },
+    {
+     "atom": 14,
+     "species": "Sc",
+     "offset_A": 2.909,
+     "spread_A2": 5.25
+    },
+    {
+     "atom": 17,
+     "species": "Sc",
+     "offset_A": 2.539,
+     "spread_A2": 5.64
+    },
+    {
+     "atom": 18,
+     "species": "Sc",
+     "offset_A": 2.539,
+     "spread_A2": 5.64
+    },
+    {
+     "atom": 21,
+     "species": "Sc",
+     "offset_A": 2.909,
+     "spread_A2": 5.25
+    },
+    {
+     "atom": 22,
+     "species": "Sc",
+     "offset_A": 2.129,
+     "spread_A2": 4.36
+    }
+   ]
+  },
+  "decision": "W3 device Hamiltonian (amendment 2026-11-14); W2 for the SK blocks",
+  "H4": {
+   "W1-W2": {
+    "max_meV": 0.6632033233427981,
+    "top_rel_cbm": 0.25097,
+    "ok": true
+   },
+   "W1-W3": {
+    "max_meV": 1.517347608923858,
+    "top_rel_cbm": 0.5,
+    "ok": true
+   },
+   "W2-W3": {
+    "max_meV": 0.7881629218856601,
+    "top_rel_cbm": 0.25097,
+    "ok": true
+   }
+  }
+ },
+ "r110_4h": {
+  "W1": {
+   "H2": {
+    "max_meV": 0.054094762242051786,
+    "n": 367,
+    "ok": true
+   },
+   "gap_w90_path": 1.4867584295015002,
+   "vbm_k_frac": 1.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -0.8616482971355409,
+     "k_frac": 1.0,
+     "n_points": 25
+    },
+    "CB": {
+     "m": 0.3179712220800739,
+     "k_frac": 0.0,
+     "n_points": 15
+    }
+   },
+   "omega_total": 183.246165215,
+   "z2_offset_A": [
+    0.3946975569833816,
+    1.0506847698563684
+   ],
+   "z2_spread_A2": [
+    3.01609747,
+    5.53078425
+   ],
+   "extra": [
+    {
+     "atom": 16,
+     "species": "H",
+     "offset_A": 0.202,
+     "spread_A2": 1.69
+    },
+    {
+     "atom": 17,
+     "species": "H",
+     "offset_A": 1.0,
+     "spread_A2": 5.61
+    },
+    {
+     "atom": 18,
+     "species": "H",
+     "offset_A": 0.991,
+     "spread_A2": 6.46
+    },
+    {
+     "atom": 19,
+     "species": "H",
+     "offset_A": 0.202,
+     "spread_A2": 1.69
+    }
+   ]
+  },
+  "W2": {
+   "H2": {
+    "max_meV": 0.05806262696328446,
+    "n": 236,
+    "ok": true
+   },
+   "gap_w90_path": 1.4867630258972335,
+   "vbm_k_frac": 1.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -0.8625441234950689,
+     "k_frac": 1.0,
+     "n_points": 25
+    },
+    "CB": {
+     "m": 0.31687247317245487,
+     "k_frac": 0.0,
+     "n_points": 15
+    }
+   },
+   "omega_total": 95.02283755,
+   "z2_offset_A": [
+    0.22257107304209545,
+    0.26947118120444224
+   ],
+   "z2_spread_A2": [
+    1.36370851,
+    1.57284345
+   ],
+   "extra": [
+    {
+     "atom": 16,
+     "species": "H",
+     "offset_A": 0.176,
+     "spread_A2": 1.49
+    },
+    {
+     "atom": 17,
+     "species": "H",
+     "offset_A": 0.821,
+     "spread_A2": 3.38
+    },
+    {
+     "atom": 18,
+     "species": "H",
+     "offset_A": 0.821,
+     "spread_A2": 3.38
+    },
+    {
+     "atom": 19,
+     "species": "H",
+     "offset_A": 0.176,
+     "spread_A2": 1.49
+    }
+   ]
+  },
+  "decision": "W2",
+  "H4": {
+   "W1-W2": {
+    "max_meV": 0.9968607440238308,
+    "top_rel_cbm": 0.5,
+    "ok": true
+   }
+  }
+ },
+ "r110_4": {
+  "W1": {
+   "H2": {
+    "max_meV": 0.05128961935740861,
+    "n": 251,
+    "ok": true
+   },
+   "gap_w90_path": 1.052836288909215,
+   "vbm_k_frac": 0.27999999999999997,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -19.931316979367402,
+     "k_frac": 0.27999999999999997,
+     "n_points": 58
+    },
+    "CB": {
+     "m": 0.9492830371663947,
+     "k_frac": 0.0,
+     "n_points": 26
+    }
+   },
+   "omega_total": 117.312060235,
+   "z2_offset_A": [
+    0.6003902737804949,
+    0.7550220667729779
+   ],
+   "z2_spread_A2": [
+    2.42466908,
+    3.66961055
+   ],
+   "extra": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "offset_A": 1.609,
+     "spread_A2": 3.64
+    },
+    {
+     "atom": 15,
+     "species": "Sc",
+     "offset_A": 1.609,
+     "spread_A2": 3.64
+    }
+   ]
+  },
+  "W2": {
+   "H2": {
+    "max_meV": 0.0524578590352931,
+    "n": 216,
+    "ok": true
+   },
+   "gap_w90_path": 1.5025203343243632,
+   "vbm_k_frac": 0.27999999999999997,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -19.99447979258214,
+     "k_frac": 0.27999999999999997,
+     "n_points": 58
+    },
+    "CB": {
+     "m": 1.0776519454940408,
+     "k_frac": 0.0,
+     "n_points": 28
+    }
+   },
+   "omega_total": 100.628326309,
+   "z2_offset_A": [
+    0.26049900694668027,
+    0.4017685270350027
+   ],
+   "z2_spread_A2": [
+    1.58630468,
+    2.31187554
+   ],
+   "extra": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "offset_A": 1.346,
+     "spread_A2": 3.04
+    },
+    {
+     "atom": 15,
+     "species": "Sc",
+     "offset_A": 1.346,
+     "spread_A2": 3.04
+    }
+   ]
+  },
+  "W3": {
+   "H2": {
+    "max_meV": 0.052432896792797834,
+    "n": 251,
+    "ok": true
+   },
+   "gap_w90_path": 0.9956150096216598,
+   "vbm_k_frac": 0.27999999999999997,
+   "cbm_k_frac": 0.07333333333333333,
+   "masses": {
+    "VB": {
+     "m": -19.248682982340867,
+     "k_frac": 0.27999999999999997,
+     "n_points": 58
+    },
+    "CB": {
+     "m": 0.17512435240107557,
+     "k_frac": 0.07333333333333333,
+     "n_points": 20
+    }
+   },
+   "omega_total": 868.323050304,
+   "z2_offset_A": [
+    0.05389075350582101,
+    0.44295874709549976
+   ],
+   "z2_spread_A2": [
+    2.03666468,
+    2.96112882
+   ],
+   "extra": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "offset_A": 1.526,
+     "spread_A2": 3.86
+    },
+    {
+     "atom": 2,
+     "species": "Sc",
+     "offset_A": 10.477,
+     "spread_A2": 195.39
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "offset_A": 9.847,
+     "spread_A2": 168.36
+    },
+    {
+     "atom": 6,
+     "species": "Sc",
+     "offset_A": 2.239,
+     "spread_A2": 7.65
+    },
+    {
+     "atom": 9,
+     "species": "Sc",
+     "offset_A": 2.239,
+     "spread_A2": 7.65
+    },
+    {
+     "atom": 11,
+     "species": "Sc",
+     "offset_A": 9.847,
+     "spread_A2": 168.36
+    },
+    {
+     "atom": 13,
+     "species": "Sc",
+     "offset_A": 10.477,
+     "spread_A2": 195.39
+    },
+    {
+     "atom": 15,
+     "species": "Sc",
+     "offset_A": 1.526,
+     "spread_A2": 3.86
+    }
+   ]
+  },
+  "decision": "W1 device Hamiltonian and SK blocks (decision 2026-11-14)",
+  "H4": {
+   "W1-W2": {
+    "max_meV": 0.1667792443864613,
+    "top_rel_cbm": -0.09997000000000011,
+    "ok": true
+   },
+   "W1-W3": {
+    "max_meV": 221.6338056672007,
+    "top_rel_cbm": 0.5,
+    "ok": false
+   },
+   "W2-W3": {
+    "max_meV": 4.617834397002696,
+    "top_rel_cbm": -0.09997000000000011,
+    "ok": true
+   }
+  },
+  "decision_by_rule": "W3 device Hamiltonian (amendment 2026-11-14); W2 for the SK blocks",
+  "decision_note": "W3 passes H1/H2 on the grid but differs from W1 by up to 222 meV between grid points (interior Sc s WFs delocalised, 168\u2013195 \u00c5\u00b2; disentanglement at the cap); W2's frozen top lies below the edge CB."
+ },
+ "r100_3h": {
+  "W1": {
+   "H2": {
+    "max_meV": 0.5868299231790441,
+    "n": 500,
+    "ok": true
+   },
+   "gap_w90_path": 1.9718616284448673,
+   "vbm_k_frac": 0.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -2.2132164829440004,
+     "k_frac": 0.0,
+     "n_points": 56
+    },
+    "CB": {
+     "m": 0.2732778721706602,
+     "k_frac": 0.0,
+     "n_points": 20
+    }
+   },
+   "omega_total": 437.657331561,
+   "z2_offset_A": [
+    0.2834338827903953,
+    0.8116178451642554
+   ],
+   "z2_spread_A2": [
+    2.21588772,
+    4.81865298
+   ],
+   "extra": [
+    {
+     "atom": 24,
+     "species": "H",
+     "offset_A": 0.135,
+     "spread_A2": 2.75
+    },
+    {
+     "atom": 25,
+     "species": "H",
+     "offset_A": 2.868,
+     "spread_A2": 15.12
+    },
+    {
+     "atom": 26,
+     "species": "H",
+     "offset_A": 2.362,
+     "spread_A2": 9.51
+    },
+    {
+     "atom": 27,
+     "species": "H",
+     "offset_A": 0.113,
+     "spread_A2": 2.32
+    },
+    {
+     "atom": 28,
+     "species": "H",
+     "offset_A": 2.868,
+     "spread_A2": 15.13
+    },
+    {
+     "atom": 29,
+     "species": "H",
+     "offset_A": 0.135,
+     "spread_A2": 2.75
+    },
+    {
+     "atom": 30,
+     "species": "H",
+     "offset_A": 0.113,
+     "spread_A2": 2.32
+    },
+    {
+     "atom": 31,
+     "species": "H",
+     "offset_A": 2.362,
+     "spread_A2": 9.51
+    }
+   ]
+  },
+  "W2": {
+   "H2": {
+    "max_meV": 0.3217681131317818,
+    "n": 284,
+    "ok": true
+   },
+   "gap_w90_path": 1.9718614095932097,
+   "vbm_k_frac": 0.0,
+   "cbm_k_frac": 0.0,
+   "masses": {
+    "VB": {
+     "m": -2.2108387949986383,
+     "k_frac": 0.0,
+     "n_points": 56
+    },
+    "CB": {
+     "m": 0.2728329762745612,
+     "k_frac": 0.0,
+     "n_points": 20
+    }
+   },
+   "omega_total": 158.651921229,
+   "z2_offset_A": [
+    0.1579069178518074,
+    0.3433190751393809
+   ],
+   "z2_spread_A2": [
+    1.53700949,
+    1.6815952
+   ],
+   "extra": [
+    {
+     "atom": 24,
+     "species": "H",
+     "offset_A": 0.104,
+     "spread_A2": 1.49
+    },
+    {
+     "atom": 25,
+     "species": "H",
+     "offset_A": 0.842,
+     "spread_A2": 4.1
+    },
+    {
+     "atom": 26,
+     "species": "H",
+     "offset_A": 0.842,
+     "spread_A2": 4.1
+    },
+    {
+     "atom": 27,
+     "species": "H",
+     "offset_A": 0.104,
+     "spread_A2": 1.49
+    },
+    {
+     "atom": 28,
+     "species": "H",
+     "offset_A": 0.842,
+     "spread_A2": 4.1
+    },
+    {
+     "atom": 29,
+     "species": "H",
+     "offset_A": 0.104,
+     "spread_A2": 1.49
+    },
+    {
+     "atom": 30,
+     "species": "H",
+     "offset_A": 0.104,
+     "spread_A2": 1.49
+    },
+    {
+     "atom": 31,
+     "species": "H",
+     "offset_A": 0.842,
+     "spread_A2": 4.1
+    }
+   ]
+  },
+  "decision": "W2",
+  "H4": {
+   "W1-W2": {
+    "max_meV": 1.5250118694210002,
+    "top_rel_cbm": 0.5,
+    "ok": true
+   }
+  }
+ }
+}

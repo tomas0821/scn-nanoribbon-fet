@@ -1,0 +1,18 @@
+
+r110_8: BB HSE06 HW1, shift +0.196 eV; gap BB 0.9107 vs DFT 0.9206 (-9.9 meV); a = 3.109 Å, 9 k
+  k 0.0000: VB-3 -0.491:-19.5  VB-2 -0.253:+35.8  VB-1 -0.191:+15.1  VB+0 +0.000:+0.0  CB+0 +0.000:+0.0  CB+1 +0.002:+0.5   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.0625: VB-2 -0.359:-8.7  VB-1 -0.153:+1.8  VB+0 -0.079:+15.7  CB+0 +0.056:+3.8  CB+1 +0.057:+3.9   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.1250: VB-1 -0.158:+9.6  VB+0 -0.137:+9.6  CB+0 +0.199:+4.5  CB+1 +0.199:+4.5   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.1875: VB-1 -0.221:+7.7  VB+0 -0.217:+8.5  CB+0 +0.397:+7.8  CB+1 +0.397:+7.7   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.2500: VB-1 -0.326:+5.9  VB+0 -0.326:+5.9   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.3125: VB-1 -0.463:+4.6  VB+0 -0.463:+4.4   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  max |dev| in window, each side edge-aligned: VB 35.8 meV, CB 7.8 meV; CB with VBM alignment (incl. gap error) 9.9 meV
+  CB chord mass Γ→k1 (56 meV): DFT +1.085, BB +1.016 (-6.4 %)
+  VB chord mass Γ→k1 (79 meV): DFT -0.767, BB -0.957 (+24.7 %)
+
+r100_6: BB HSE06 HW1, shift -0.243 eV; gap BB 1.6047 vs DFT 1.6292 (-24.5 meV); a = 4.397 Å, 7 k
+  k 0.0000: VB-3 -0.347:-2.4  VB-2 -0.228:-10.6  VB-1 -0.115:+19.1  VB+0 +0.000:+0.0  CB+0 +0.000:+0.0  CB+1 +0.472:+23.6   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  k 0.0833: VB-2 -0.428:+5.0  VB-1 -0.273:+0.7  VB+0 -0.258:+4.4  CB+0 +0.231:+0.3   (E_DFT rel. edge, eV : BB−DFT, meV, edge-aligned)
+  max |dev| in window, each side edge-aligned: VB 19.1 meV, CB 23.6 meV; CB with VBM alignment (incl. gap error) 24.5 meV
+  CB chord mass Γ→k1 (231 meV): DFT +0.233, BB +0.233 (-0.1 %)
+  VB chord mass Γ→k1 (258 meV): DFT -0.209, BB -0.213 (+1.7 %)

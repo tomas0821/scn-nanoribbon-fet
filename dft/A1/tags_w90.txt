@@ -1,0 +1,6 @@
+hse_ibz_q8
+hse_ibz_q8_open
+w90_pbe
+w90_hse_n
+w90_hse_o
+w90_hse_q8

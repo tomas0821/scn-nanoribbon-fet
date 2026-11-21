@@ -1,0 +1,18 @@
+{
+ "r110_8": {
+  "nocc": 128,
+  "nexcl": 80,
+  "nk_w90": 16,
+  "nbnd_nscf": 415,
+  "num_wann_B": 130,
+  "num_wann_S": 144
+ },
+ "r100_6": {
+  "nocc": 192,
+  "nexcl": 120,
+  "nk_w90": 12,
+  "nbnd_nscf": 515,
+  "num_wann_B": 192,
+  "num_wann_S": 216
+ }
+}

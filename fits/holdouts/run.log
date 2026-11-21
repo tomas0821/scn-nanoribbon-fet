@@ -1,0 +1,15 @@
+=== r110_8 (edge blocks from r110_4; W 2.31 nm): W2 gap 0.285, valley X−Γ 1.155, m_VB -0.289, m_CB +0.959 | W2 without edge-s bands: gap 0.807, valley 0.633
+   SK PBE: gap 0.782 (+497 meV) valley 0.700 (-455) m_VB -0.177 (-39%) m_CB +0.279 (-71%) | I_ON rel n EOT 1.0 +113% n EOT 0.6 +125% p EOT 1.0 +45% p EOT 0.6 +44% | IRDS (SK, W) {'n': (True, False), 'p': (True, True)} | ok {'gap': False, 'valley': False, 'masses': False, 'I_on': False, 'irds': False} → FAIL
+   SK, no edge blocks PBE: gap 0.813 (+528 meV) valley 0.709 (-446) m_VB -0.181 (-37%) m_CB +0.260 (-73%) | I_ON rel n EOT 1.0 +122% n EOT 0.6 +134% p EOT 1.0 +51% p EOT 0.6 +54% | IRDS (SK, W) {'n': (True, False), 'p': (True, True)} | ok {'gap': False, 'valley': False, 'masses': False, 'I_on': False, 'irds': False} → FAIL
+   SK HSE06: gap 1.777 vs HSE 0.921 (+856 meV) FAIL
+   SK, no edge blocks HSE06: gap 1.869 vs HSE 0.921 (+948 meV) FAIL
+   W2 I_ON (mA/μm): n EOT 1.0 0.832 n EOT 0.6 1.402 p EOT 1.0 1.449 p EOT 0.6 2.317 | k 4000 vs 2000: +9.8e-15 +8.7e-15 +7.1e-04 +1.0e-03
+=== r100_6 (edge blocks from r100_3; W 2.41 nm): W2 gap 0.617, valley X−Γ 1.637, m_VB -0.199, m_CB +0.203
+   SK PBE: gap 0.624 (+6 meV) valley 1.625 (-12) m_VB -0.162 (-19%) m_CB +0.223 (+10%) | I_ON rel n EOT 1.0 -5% n EOT 0.6 -4% p EOT 1.0 +6% p EOT 0.6 +1% | IRDS (SK, W) {'n': (True, True), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': False, 'I_on': True, 'irds': True} → FAIL
+   SK, no edge blocks PBE: gap 0.638 (+21 meV) valley 1.629 (-9) m_VB -0.160 (-20%) m_CB +0.225 (+11%) | I_ON rel n EOT 1.0 -5% n EOT 0.6 -5% p EOT 1.0 +8% p EOT 0.6 +3% | IRDS (SK, W) {'n': (True, True), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': False, 'I_on': True, 'irds': True} → FAIL
+   SK HSE06: gap 1.686 vs HSE 1.629 (+57 meV) ok
+   SK, no edge blocks HSE06: gap 1.686 vs HSE 1.629 (+57 meV) ok
+   W2 I_ON (mA/μm): n EOT 1.0 2.149 n EOT 0.6 3.752 p EOT 1.0 2.082 p EOT 0.6 3.426 | k 4000 vs 2000: -4.8e-15 +6.7e-16 -4.1e-15 -3.1e-15
+=== slab3: W2 gap 0.120, M̄ 0.622, X̄ 3.630 | SK PBE gap 0.175 (+54 meV), M̄ 0.620 (-2), X̄ 1.911 (-1720; vs DFT -1232); masses VB G-X +10% CB G-X +73% VB G-M +112% CB G-M +77% VB-1 G-X +3% VB-1 G-M -25% | ok {'gap': False, 'valleys': False, 'masses': False} → FAIL
+   SK HSE06 gap 1.136 vs HSE 1.1055 (+30 meV) ok
+exit 0

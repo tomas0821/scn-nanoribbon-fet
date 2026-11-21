@@ -1,0 +1,6 @@
+&inputpp
+  prefix='scf_r100_3h', outdir='./tmp_scf_r100_3h', filplot='pot_r100_3h.dat', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='pot_r100_3h.dat', weight(1)=1.0, iflag=3, output_format=6, fileout='pot_r100_3h.cube'
+/

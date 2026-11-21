@@ -1,0 +1,44 @@
+{
+ "runs": {
+  "scf_slab3": {
+   "nocc": 24,
+   "gap_grid": 0.1201000000000001,
+   "gap_G": 0.1201000000000001,
+   "CB_X_minus_CB_G": 3.1426,
+   "Mbar_offset": 0.6217000000000001,
+   "VB_M_minus_VB_G": -0.6059999999999999,
+   "k_vbm": [
+    0.0,
+    0.0
+   ],
+   "k_cbm": [
+    0.0,
+    0.0
+   ]
+  },
+  "vac_slab3": {
+   "nocc": 24,
+   "gap_grid": 0.119,
+   "gap_G": 0.119,
+   "CB_X_minus_CB_G": 3.1429,
+   "Mbar_offset": 0.6219,
+   "VB_M_minus_VB_G": -0.6060000000000001,
+   "k_vbm": [
+    0.0,
+    0.0
+   ],
+   "k_cbm": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "change_meV": {
+  "gap_grid": -1.1,
+  "gap_G": -1.1,
+  "Mbar_offset": 0.2,
+  "CB_X_minus_CB_G": 0.3
+ },
+ "ok": true,
+ "note": "A2 criterion 2 on the slab (README run-level criteria)"
+}

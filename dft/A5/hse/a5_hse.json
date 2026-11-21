@@ -1,0 +1,203 @@
+{
+ "r110_8": {
+  "nbnd": 160,
+  "nk_ibz": 9,
+  "exx_outer_steps": 7,
+  "dexx_final_Ry": 5.3e-10,
+  "E_Ry": -1801.22217584,
+  "gap_grid": 0.9206,
+  "k_vbm_frac": 0.0,
+  "k_cbm_frac": 0.0,
+  "direct": true,
+  "vbm": -1.7054,
+  "cbm": -0.7848,
+  "vacuum": {
+   "E_vac_eV": 1.8708849834607069,
+   "spread_meV": 27.033756363549656,
+   "n_points": 1081,
+   "max_dist_A": 14.291060518615243
+  },
+  "E_vac_rel_vbm": 3.576284983460707,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": -0.78481,
+    "E_rel_vbm": 0.92059,
+    "s_out": 0.273,
+    "k_index": 0,
+    "band": 129,
+    "psi2": 0.785
+   },
+   "0.20": {
+    "E_eV": -0.78481,
+    "E_rel_vbm": 0.92059,
+    "s_out": 0.273,
+    "k_index": 0,
+    "band": 129,
+    "psi2": 0.785
+   },
+   "0.30": {
+    "E_eV": 0.52717,
+    "E_rel_vbm": 2.23257,
+    "s_out": 0.399,
+    "k_index": 0,
+    "band": 132,
+    "psi2": 0.797
+   }
+  },
+  "device_window": {
+   "top_rel_cbm": 0.5,
+   "first_nonmodel_rel_cbm": -9.99999999995449e-06,
+   "inside": true,
+   "inside_at_0p20": true,
+   "inside_at_0p30": false
+  },
+  "edges": {
+   "VB": {
+    "E_rel_vbm": -0.0,
+    "edge": 0.118,
+    "psi2": 0.988,
+    "shares": {
+     "N p": 0.916,
+     "Sc d": 0.078,
+     "Sc p": 0.006
+    }
+   },
+   "CB": {
+    "E_rel_vbm": 0.9206,
+    "edge": 0.887,
+    "psi2": 0.785,
+    "shares": {
+     "Sc s": 0.662,
+     "Sc d": 0.191,
+     "N p": 0.084,
+     "N s": 0.063
+    }
+   },
+   "VB_1": {
+    "E_rel_vbm": -0.1907,
+    "edge": 0.31,
+    "psi2": 0.989,
+    "shares": {
+     "N p": 0.849,
+     "Sc d": 0.141,
+     "Sc p": 0.01
+    }
+   },
+   "CB_1": {
+    "E_rel_vbm": 0.9227,
+    "edge": 0.885,
+    "psi2": 0.786,
+    "shares": {
+     "Sc s": 0.657,
+     "Sc d": 0.194,
+     "N p": 0.086,
+     "N s": 0.063
+    }
+   },
+   "uniform_share": 0.125
+  },
+  "pbe_twin": {
+   "gap": 0.28480000000000005,
+   "E_vac_rel_vbm": 3.114634909096262,
+   "first_nonmodel_rel_cbm": 1.10482
+  }
+ },
+ "r100_6": {
+  "nbnd": 224,
+  "nk_ibz": 7,
+  "exx_outer_steps": 8,
+  "dexx_final_Ry": 2.4e-10,
+  "E_Ry": -2702.26096049,
+  "gap_grid": 1.6292,
+  "k_vbm_frac": 0.0,
+  "k_cbm_frac": 0.0,
+  "direct": true,
+  "vbm": -0.8558,
+  "cbm": 0.7734,
+  "vacuum": {
+   "E_vac_eV": 3.0500641649914346,
+   "spread_meV": 5.754074383265362,
+   "n_points": 577,
+   "max_dist_A": 10.672222873849348
+  },
+  "E_vac_rel_vbm": 3.9058641649914345,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": 1.34702,
+    "E_rel_vbm": 2.20282,
+    "s_out": 0.601,
+    "k_index": 0,
+    "band": 195,
+    "psi2": 0.705
+   },
+   "0.20": {
+    "E_eV": 1.34702,
+    "E_rel_vbm": 2.20282,
+    "s_out": 0.601,
+    "k_index": 0,
+    "band": 195,
+    "psi2": 0.705
+   },
+   "0.30": {
+    "E_eV": 1.34702,
+    "E_rel_vbm": 2.20282,
+    "s_out": 0.601,
+    "k_index": 0,
+    "band": 195,
+    "psi2": 0.705
+   }
+  },
+  "device_window": {
+   "top_rel_cbm": 0.5,
+   "first_nonmodel_rel_cbm": 0.5736200000000001,
+   "inside": false,
+   "inside_at_0p20": false,
+   "inside_at_0p30": false
+  },
+  "edges": {
+   "VB": {
+    "E_rel_vbm": 0.0,
+    "edge": 0.193,
+    "psi2": 0.987,
+    "shares": {
+     "N p": 0.951,
+     "Sc d": 0.049
+    }
+   },
+   "CB": {
+    "E_rel_vbm": 1.6292,
+    "edge": 0.069,
+    "psi2": 0.984,
+    "shares": {
+     "Sc d": 0.971,
+     "N p": 0.029
+    }
+   },
+   "VB_1": {
+    "E_rel_vbm": -0.1153,
+    "edge": 0.402,
+    "psi2": 0.987,
+    "shares": {
+     "N p": 0.906,
+     "Sc d": 0.09,
+     "Sc p": 0.004
+    }
+   },
+   "CB_1": {
+    "E_rel_vbm": 2.1013,
+    "edge": 0.184,
+    "psi2": 0.983,
+    "shares": {
+     "Sc d": 0.906,
+     "N p": 0.094
+    }
+   },
+   "uniform_share": 0.16666666666666666
+  },
+  "pbe_twin": {
+   "gap": 0.6172,
+   "E_vac_rel_vbm": 3.3511254016700818,
+   "first_nonmodel_rel_cbm": 0.71411
+  }
+ }
+}

@@ -1,0 +1,824 @@
+{
+ "W1": {
+  "H1_ok": true,
+  "H2": {
+   "max_meV": 0.04201508855716796,
+   "n": 2603,
+   "nk": 256,
+   "froz_win": 4.2163,
+   "ok": true
+  },
+  "H2_ibz": {
+   "max_meV": 2.6428459065925836,
+   "n": 466,
+   "max_meV_without_top_states": 0.0780118183090206,
+   "n_top_states": 1
+  },
+  "gap_path": 1.1054377040493915,
+  "vbm_at_G": true,
+  "cbm_at_G": true,
+  "valleys": {
+   "Ec(M)-Ec(G)": 0.6756125370481767,
+   "Ec(X)-Ec(G)": 3.323495503332919
+  },
+  "masses": {
+   "VB G-X": {
+    "m": -0.34147143306266736,
+    "at_gamma": true,
+    "n_points": 11
+   },
+   "CB G-X": {
+    "m": 0.1709006427242612,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "VB-1 G-X": {
+    "m": -0.18467905790377967,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "VB G-M": {
+    "m": -0.3778867534890496,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "CB G-M": {
+    "m": 0.17051521740618183,
+    "at_gamma": true,
+    "n_points": 6
+   },
+   "VB-1 G-M": {
+    "m": -0.1764985558386301,
+    "at_gamma": true,
+    "n_points": 6
+   }
+  },
+  "P6": {
+   "omega_total_reported": 1222.147803075,
+   "n_branch_cut": 8,
+   "omega_off_cut": 26.07904052,
+   "host_nonz2_max_offset_A": 0.05015501250462963,
+   "z2_offsets_A": [
+    0.982,
+    0.982
+   ],
+   "s_offsets_A": [],
+   "max_spread_off_cut_A2": 3.42770874,
+   "wf": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": false,
+     "offset_A": 0.9820006978000002,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.982
+     ],
+     "spread_A2": 3.42770874,
+     "spread_reported_A2": 3.42770874
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": false,
+     "offset_A": 0.030398697800000818,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0304
+     ],
+     "spread_A2": 1.28833719,
+     "spread_reported_A2": 1.28833719
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": false,
+     "offset_A": 0.030398697800000818,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0304
+     ],
+     "spread_A2": 1.28833719,
+     "spread_reported_A2": 1.28833719
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": false,
+     "offset_A": 0.003941302199999441,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0039
+     ],
+     "spread_A2": 1.22174919,
+     "spread_reported_A2": 1.22174919
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": false,
+     "offset_A": 0.00180269780000053,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0018
+     ],
+     "spread_A2": 1.61675426,
+     "spread_reported_A2": 1.61675426
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -12.1685
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.65484115
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      11.6932
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.15420412
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -11.8833
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.29880606
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      12.121
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.34564266
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -11.9308
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.85711445
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": false,
+     "offset_A": 0.9820006978000002,
+     "d_A": [
+      0.0,
+      0.0,
+      0.982
+     ],
+     "spread_A2": 3.42770874,
+     "spread_reported_A2": 3.42770874
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": false,
+     "offset_A": 0.03039869779999904,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0304
+     ],
+     "spread_A2": 1.28833719,
+     "spread_reported_A2": 1.28833719
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": false,
+     "offset_A": 0.03039869779999904,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0304
+     ],
+     "spread_A2": 1.28833719,
+     "spread_reported_A2": 1.28833719
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": false,
+     "offset_A": 0.003941302200001218,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0039
+     ],
+     "spread_A2": 1.22174919,
+     "spread_reported_A2": 1.22174919
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": false,
+     "offset_A": 0.0018026977999987537,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0018
+     ],
+     "spread_A2": 1.61675426,
+     "spread_reported_A2": 1.61675426
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": false,
+     "offset_A": 0.05015501250462963,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0502
+     ],
+     "spread_A2": 1.17026121,
+     "spread_reported_A2": 1.17026121
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": false,
+     "offset_A": 0.0475650125048821,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0476
+     ],
+     "spread_A2": 1.51318624,
+     "spread_reported_A2": 1.51318624
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": false,
+     "offset_A": 0.0475650125048821,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0476
+     ],
+     "spread_A2": 1.51318624,
+     "spread_reported_A2": 1.51318624
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      -12.0734
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 150.19467583
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      -11.7882
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.26479361
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      11.8358
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.29868469
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": false,
+     "offset_A": 0.05015501250462963,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0502
+     ],
+     "spread_A2": 1.17026121,
+     "spread_reported_A2": 1.17026121
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": false,
+     "offset_A": 0.04756501250488032,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0476
+     ],
+     "spread_A2": 1.51318624,
+     "spread_reported_A2": 1.51318624
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": false,
+     "offset_A": 0.04756501250488032,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0476
+     ],
+     "spread_A2": 1.51318624,
+     "spread_reported_A2": 1.51318624
+    }
+   ]
+  }
+ },
+ "W2": {
+  "H1_ok": true,
+  "H2": {
+   "max_meV": 0.032452439092334195,
+   "n": 2372,
+   "nk": 256,
+   "froz_win": 3.2224,
+   "ok": true
+  },
+  "H2_ibz": {
+   "max_meV": 0.07406900361250912,
+   "n": 422,
+   "max_meV_without_top_states": 0.07406900361250912,
+   "n_top_states": 0
+  },
+  "gap_path": 1.1054573135609107,
+  "vbm_at_G": true,
+  "cbm_at_G": true,
+  "valleys": {
+   "Ec(M)-Ec(G)": 0.6755787792257999,
+   "Ec(X)-Ec(G)": 3.7755649175804153
+  },
+  "masses": {
+   "VB G-X": {
+    "m": -0.34160855648970495,
+    "at_gamma": true,
+    "n_points": 11
+   },
+   "CB G-X": {
+    "m": 0.1701843028712156,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "VB-1 G-X": {
+    "m": -0.1839236824689751,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "VB G-M": {
+    "m": -0.3735003442848421,
+    "at_gamma": true,
+    "n_points": 8
+   },
+   "CB G-M": {
+    "m": 0.16975317339702456,
+    "at_gamma": true,
+    "n_points": 6
+   },
+   "VB-1 G-M": {
+    "m": -0.17684622566108066,
+    "at_gamma": true,
+    "n_points": 6
+   }
+  },
+  "P6": {
+   "omega_total_reported": 1216.378974926,
+   "n_branch_cut": 8,
+   "omega_off_cut": 21.616401279999998,
+   "host_nonz2_max_offset_A": 0.08340301250278422,
+   "z2_offsets_A": [
+    0.306,
+    0.306
+   ],
+   "s_offsets_A": [],
+   "max_spread_off_cut_A2": 1.61286609,
+   "wf": [
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": false,
+     "offset_A": 0.3061846978000009,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.3062
+     ],
+     "spread_A2": 1.50817241,
+     "spread_reported_A2": 1.50817241
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": false,
+     "offset_A": 0.022779697800000775,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0228
+     ],
+     "spread_A2": 1.26667282,
+     "spread_reported_A2": 1.26667282
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": false,
+     "offset_A": 0.022779697800000775,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0228
+     ],
+     "spread_A2": 1.26667282,
+     "spread_reported_A2": 1.26667282
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": false,
+     "offset_A": 0.004190302199999607,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0042
+     ],
+     "spread_A2": 1.21387125,
+     "spread_reported_A2": 1.21387125
+    },
+    {
+     "atom": 0,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": false,
+     "offset_A": 0.002822697800000995,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0028
+     ],
+     "spread_A2": 1.61286609,
+     "spread_reported_A2": 1.61286609
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      12.0734
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.62288903
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      11.408
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 148.77141181
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -11.7882
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.20521764
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      11.9784
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.30732595
+    },
+    {
+     "atom": 3,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": true,
+     "offset_A": 6.815095155726161e-07,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -11.8833
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.82803624
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dz2",
+     "branch_cut": false,
+     "offset_A": 0.3061846978000027,
+     "d_A": [
+      0.0,
+      0.0,
+      0.3062
+     ],
+     "spread_A2": 1.50817241,
+     "spread_reported_A2": 1.50817241
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dxz",
+     "branch_cut": false,
+     "offset_A": 0.022779697800000775,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0228
+     ],
+     "spread_A2": 1.26667282,
+     "spread_reported_A2": 1.26667282
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dyz",
+     "branch_cut": false,
+     "offset_A": 0.022779697800000775,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0228
+     ],
+     "spread_A2": 1.26667282,
+     "spread_reported_A2": 1.26667282
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dx2-y2",
+     "branch_cut": false,
+     "offset_A": 0.004190302199997831,
+     "d_A": [
+      0.0,
+      0.0,
+      -0.0042
+     ],
+     "spread_A2": 1.21387125,
+     "spread_reported_A2": 1.21387125
+    },
+    {
+     "atom": 4,
+     "species": "Sc",
+     "orbital": "dxy",
+     "branch_cut": false,
+     "offset_A": 0.0028226978000027714,
+     "d_A": [
+      0.0,
+      0.0,
+      0.0028
+     ],
+     "spread_A2": 1.61286609,
+     "spread_reported_A2": 1.61286609
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": false,
+     "offset_A": 0.08340301250278422,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0834
+     ],
+     "spread_A2": 1.20763649,
+     "spread_reported_A2": 1.20763649
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": false,
+     "offset_A": 0.023381012509932114,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0234
+     ],
+     "spread_A2": 1.36615438,
+     "spread_reported_A2": 1.36615438
+    },
+    {
+     "atom": 1,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": false,
+     "offset_A": 0.023381012509932114,
+     "d_A": [
+      -0.0,
+      -0.0,
+      -0.0234
+     ],
+     "spread_A2": 1.36615438,
+     "spread_reported_A2": 1.36615438
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      11.9784
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.29235469
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      -12.0259
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.38574439
+    },
+    {
+     "atom": 2,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": true,
+     "offset_A": 0.0,
+     "d_A": [
+      0.0,
+      0.0,
+      11.9308
+     ],
+     "spread_A2": null,
+     "spread_reported_A2": 149.34959391
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "pz",
+     "branch_cut": false,
+     "offset_A": 0.08340301250278422,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0834
+     ],
+     "spread_A2": 1.20763649,
+     "spread_reported_A2": 1.20763649
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "px",
+     "branch_cut": false,
+     "offset_A": 0.023381012509932114,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0234
+     ],
+     "spread_A2": 1.36615438,
+     "spread_reported_A2": 1.36615438
+    },
+    {
+     "atom": 5,
+     "species": "N",
+     "orbital": "py",
+     "branch_cut": false,
+     "offset_A": 0.023381012509932114,
+     "d_A": [
+      -0.0,
+      -0.0,
+      0.0234
+     ],
+     "spread_A2": 1.36615438,
+     "spread_reported_A2": 1.36615438
+    }
+   ]
+  }
+ },
+ "decision": "W2",
+ "H4": {
+  "points_per_segment": 200,
+  "pairs": {
+   "W1-W2": {
+    "max_meV": 0.6982833176088499,
+    "top_rel_cbm": 0.5000000000000002,
+    "n": 260,
+    "ok": true
+   }
+  }
+ }
+}

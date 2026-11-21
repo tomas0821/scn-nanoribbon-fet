@@ -1,0 +1,10 @@
+nm_r110_4
+fm_r110_4
+afm_edges_r110_4
+afm_planes_r110_4
+nm_k30_r110_4
+fm_k30_r110_4
+afm_edges_k30_r110_4
+bands_r110_4
+projwfc_r110_4
+vac20_r110_4

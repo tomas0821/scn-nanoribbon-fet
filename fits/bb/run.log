@@ -1,0 +1,14 @@
+=== r110_8 (edges from r110_4; W 2.31 nm): W2 gap 0.285, valley X−Γ 1.155, m_VB -0.289, m_CB +0.959 | W2 without edge-s bands: gap 0.807, valley 0.633
+   BB PBE (W1, shift +0.139 eV): gap 0.252 (-32 meV) valley 1.148 (-7) m_VB -0.266 (-8.0%) m_CB +0.903 (-5.9%) | I_ON rel n EOT 1.0 +0.9% n EOT 0.6 +0.8% p EOT 1.0 +3.7% p EOT 0.6 +3.9% | IRDS (BB, W) {'n': (False, False), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': True, 'I_on': True, 'irds': True} → PASS | no edge-s: gap 0.748 valley 0.652
+   BB PBE, vacuum-aligned (W1, shift +0.000 eV): gap 0.331 (+46 meV) valley 1.048 (-107) m_VB -0.316 (+9.4%) m_CB +0.910 (-5.1%) | I_ON rel n EOT 1.0 +1.3% n EOT 0.6 +1.2% p EOT 1.0 -20.4% p EOT 0.6 -20.7% | IRDS (BB, W) {'n': (False, False), 'p': (False, True)} | ok {'gap': True, 'valley': False, 'masses': True, 'I_on': False, 'irds': False} → FAIL | no edge-s: gap 0.726 valley 0.653
+   BB PBE, W2 edges (W2, shift +0.257 eV): gap 0.176 (-109 meV) valley 1.222 (+67) m_VB -0.242 (-16.1%) m_CB +0.865 (-9.9%) | I_ON rel n EOT 1.0 +2.1% n EOT 0.6 +2.0% p EOT 1.0 +18.6% p EOT 0.6 +20.2% | IRDS (BB, W) {'n': (False, False), 'p': (True, True)} | ok {'gap': False, 'valley': False, 'masses': False, 'I_on': False, 'irds': True} → FAIL | no edge-s: gap 0.757 valley 0.642
+   BB HSE06 (HW1, shift +0.196 eV): gap 0.911 vs HSE 0.921 (-10 meV) ok
+   W2 I_ON (mA/μm): n EOT 1.0 0.832 n EOT 0.6 1.402 p EOT 1.0 1.449 p EOT 0.6 2.317 | hold-out PASSES
+=== r100_6 (edges from r100_3; W 2.41 nm): W2 gap 0.617, valley X−Γ 1.637, m_VB -0.199, m_CB +0.203
+   BB PBE (W1, shift -0.212 eV): gap 0.609 (-8 meV) valley 1.635 (-3) m_VB -0.198 (-0.4%) m_CB +0.204 (+0.5%) | I_ON rel n EOT 1.0 -0.3% n EOT 0.6 -0.3% p EOT 1.0 -1.0% p EOT 0.6 -1.3% | IRDS (BB, W) {'n': (True, True), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': True, 'I_on': True, 'irds': True} → PASS
+   BB PBE, vacuum-aligned (W1, shift +0.000 eV): gap 0.619 (+2 meV) valley 1.658 (+20) m_VB -0.200 (+0.4%) m_CB +0.199 (-2.1%) | I_ON rel n EOT 1.0 +1.1% n EOT 0.6 +0.9% p EOT 1.0 +3.6% p EOT 0.6 +6.2% | IRDS (BB, W) {'n': (True, True), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': True, 'I_on': True, 'irds': True} → PASS
+   BB PBE, W2 edges (W2, shift -0.060 eV): gap 0.622 (+4 meV) valley 1.663 (+26) m_VB -0.199 (-0.1%) m_CB +0.194 (-4.4%) | I_ON rel n EOT 1.0 +2.5% n EOT 0.6 +2.1% p EOT 1.0 +2.6% p EOT 0.6 +3.1% | IRDS (BB, W) {'n': (True, True), 'p': (True, True)} | ok {'gap': True, 'valley': True, 'masses': True, 'I_on': True, 'irds': True} → PASS
+   BB HSE06 (HW1, shift -0.243 eV): gap 1.605 vs HSE 1.629 (-25 meV) ok
+   W2 I_ON (mA/μm): n EOT 1.0 2.149 n EOT 0.6 3.752 p EOT 1.0 2.082 p EOT 0.6 3.426 | hold-out PASSES
+peak RSS 475092 kB, wall 12:17.58
+exit 0

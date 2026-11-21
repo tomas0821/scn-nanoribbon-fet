@@ -1,0 +1,6 @@
+&inputpp
+  prefix='hse_slab3', outdir='./tmp_hse_slab3', filplot='hpot_slab3.dat', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='hpot_slab3.dat', weight(1)=1.0, iflag=3, output_format=6, fileout='hpot_slab3.cube'
+/

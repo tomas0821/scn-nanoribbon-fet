@@ -1,0 +1,9 @@
+nm_r100_3
+fm_r100_3
+afm_edges_r100_3
+afm_planes_r100_3
+nm_k30_r100_3
+fm_k30_r100_3
+afm_edges_k30_r100_3
+bands_r100_3
+projwfc_r100_3

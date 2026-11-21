@@ -1,0 +1,643 @@
+{
+ "r100_3": {
+  "n_edge_atoms": 8,
+  "nocc": 96,
+  "runs": {
+   "nm_r100_3": {
+    "E_Ry": -2135.00393189,
+    "converged": true,
+    "E_F_eV": -0.7551
+   },
+   "fm_r100_3": {
+    "E_Ry": -2135.00386796,
+    "converged": true,
+    "E_F_eV": -0.7567,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 2.18,
+    "max_site_moment": 0.0
+   },
+   "afm_edges_r100_3": {
+    "E_Ry": -2135.00386796,
+    "converged": true,
+    "E_F_eV": -0.706,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 2.19,
+    "max_site_moment": 0.0
+   },
+   "afm_planes_r100_3": {
+    "E_Ry": -2135.00386796,
+    "converged": true,
+    "E_F_eV": -0.7567,
+    "abs_mag": 0.0,
+    "tot_mag": 0.0,
+    "abs_mag_first_iter": 2.37,
+    "max_site_moment": 0.0
+   },
+   "nm_k30_r100_3": {
+    "E_Ry": -2135.00393174,
+    "converged": true,
+    "E_F_eV": -0.6234
+   },
+   "fm_k30_r100_3": {
+    "E_Ry": -2135.00386781,
+    "converged": true,
+    "E_F_eV": -0.6248,
+    "abs_mag": 0.0,
+    "tot_mag": 0.0,
+    "abs_mag_first_iter": 2.18,
+    "max_site_moment": 0.0
+   },
+   "afm_edges_k30_r100_3": {
+    "E_Ry": -2135.00386781,
+    "converged": true,
+    "E_F_eV": -0.6245,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 2.19,
+    "max_site_moment": 0.0
+   }
+  },
+  "c1_k15": {
+   "dE_meV_per_edge": -0.10872649460652849,
+   "lowest": "fm_r100_3",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_k30": {
+   "dE_meV_per_edge": -0.1087264953799226,
+   "lowest": "fm_k30_r100_3",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_magnetic": false,
+  "c1_basis": "k30",
+  "c2": {
+   "dE_mag_change_meV_per_edge": 7.733941126408794e-10,
+   "gap_k15_eV": 0.9116000000000001,
+   "gap_k30_on_k15_points_eV": 0.9115,
+   "gap_k30_full_grid_eV": 0.9115,
+   "gap_change_meV": 0.10000000000010001,
+   "ok": true
+  },
+  "c3": {
+   "gap_path_eV": 0.9117,
+   "k_vbm": 0.0,
+   "k_cbm": 0.0,
+   "direct": true,
+   "direct_gap_G_eV": 0.9117,
+   "direct_gap_X_eV": 3.7683999999999997,
+   "gap_grid_k15_eV": 0.9116000000000001,
+   "E_F_eV": -0.7551,
+   "vbm_eV": -1.1168,
+   "metallic": false,
+   "vs_sheet_eV": 0.5076999999999999,
+   "nbnd": 336
+  },
+  "survey": {
+   "levels": {
+    "L": {
+     "level_rel_vbm": 10.278,
+     "nbnd": 265,
+     "per_fu": 22.08
+    },
+    "L+0.5": {
+     "level_rel_vbm": 10.778,
+     "nbnd": 272,
+     "per_fu": 22.67
+    },
+    "L+1.0": {
+     "level_rel_vbm": 11.278,
+     "nbnd": 281,
+     "per_fu": 23.42
+    }
+   },
+   "top_band_min_rel_vbm": 14.0585,
+   "n_sc": 12
+  },
+  "c4": {
+   "vbm": {
+    "edge": 0.44715447154471544,
+    "left": 0.22357723577235772,
+    "right": 0.22357723577235772,
+    "H": 0.0,
+    "edge_plus_H": 0.44715447154471544
+   },
+   "cbm": {
+    "edge": 0.3170731707317073,
+    "left": 0.15853658536585366,
+    "right": 0.15853658536585366,
+    "H": 0.0,
+    "edge_plus_H": 0.3170731707317073
+   },
+   "psi2_vbm": 0.992,
+   "psi2_cbm": 0.991,
+   "uniform_share": 0.3333333333333333,
+   "uniform_share_host": 0.3333333333333333,
+   "along_path": {
+    "VB-1": {
+     "G": 0.671,
+     "X": 0.523,
+     "max": 0.704,
+     "E_G_rel_vbm": -0.31,
+     "E_X_rel_vbm": -1.322
+    },
+    "VB": {
+     "G": 0.447,
+     "X": 0.523,
+     "max": 0.566,
+     "E_G_rel_vbm": 0.0,
+     "E_X_rel_vbm": -1.322
+    },
+    "CB": {
+     "G": 0.317,
+     "X": 0.165,
+     "max": 0.317,
+     "E_G_rel_vbm": 0.912,
+     "E_X_rel_vbm": 2.446
+    },
+    "CB+1": {
+     "G": 0.124,
+     "X": 0.165,
+     "max": 0.276,
+     "E_G_rel_vbm": 1.428,
+     "E_X_rel_vbm": 2.446
+    }
+   },
+   "edge_definition": "edge",
+   "edge_state_sets_gap": false,
+   "host_row_only_flag": false
+  }
+ },
+ "r110_4": {
+  "n_edge_atoms": 4,
+  "nocc": 64,
+  "runs": {
+   "nm_r110_4": {
+    "E_Ry": -1423.07852016,
+    "converged": true,
+    "E_F_eV": -0.9985
+   },
+   "fm_r110_4": {
+    "E_Ry": -1423.07847826,
+    "converged": true,
+    "E_F_eV": -0.9989,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 1.44,
+    "max_site_moment": 0.0
+   },
+   "afm_edges_r110_4": {
+    "E_Ry": -1423.07847826,
+    "converged": true,
+    "E_F_eV": -0.9989,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 1.48,
+    "max_site_moment": 0.0
+   },
+   "afm_planes_r110_4": {
+    "E_Ry": -1423.07847826,
+    "converged": true,
+    "E_F_eV": -0.9991,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 1.59,
+    "max_site_moment": 0.0
+   },
+   "nm_k30_r110_4": {
+    "E_Ry": -1423.07852156,
+    "converged": true,
+    "E_F_eV": -0.9988
+   },
+   "fm_k30_r110_4": {
+    "E_Ry": -1423.07847967,
+    "converged": true,
+    "E_F_eV": -0.9995,
+    "abs_mag": 0.0,
+    "tot_mag": 0.0,
+    "abs_mag_first_iter": 1.44,
+    "max_site_moment": 0.0
+   },
+   "afm_edges_k30_r110_4": {
+    "E_Ry": -1423.07847967,
+    "converged": true,
+    "E_F_eV": -0.9995,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 1.47,
+    "max_site_moment": 0.0
+   }
+  },
+  "c1_k15": {
+   "dE_meV_per_edge": -0.14251963483284671,
+   "lowest": "fm_r110_4",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_k30": {
+   "dE_meV_per_edge": -0.14248562095975337,
+   "lowest": "fm_k30_r110_4",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_magnetic": false,
+  "c1_basis": "k30",
+  "c2": {
+   "dE_mag_change_meV_per_edge": 3.4013873093347025e-05,
+   "gap_k15_eV": 0.4084,
+   "gap_k30_on_k15_points_eV": 0.40859999999999996,
+   "gap_k30_full_grid_eV": 0.40859999999999996,
+   "gap_change_meV": 0.19999999999997797,
+   "ok": true
+  },
+  "c3": {
+   "gap_path_eV": 0.40869999999999995,
+   "k_vbm": 0.0,
+   "k_cbm": 0.0,
+   "direct": true,
+   "direct_gap_G_eV": 0.40869999999999995,
+   "direct_gap_X_eV": 2.3749,
+   "gap_grid_k15_eV": 0.4084,
+   "E_F_eV": -0.9985,
+   "vbm_eV": -1.2039,
+   "metallic": false,
+   "vs_sheet_eV": 0.0046999999999999265,
+   "nbnd": 224
+  },
+  "survey": {
+   "levels": {
+    "L": {
+     "level_rel_vbm": 10.278,
+     "nbnd": 174,
+     "per_fu": 21.75
+    },
+    "L+0.5": {
+     "level_rel_vbm": 10.778,
+     "nbnd": 184,
+     "per_fu": 23.0
+    },
+    "L+1.0": {
+     "level_rel_vbm": 11.278,
+     "nbnd": 193,
+     "per_fu": 24.12
+    }
+   },
+   "top_band_min_rel_vbm": 12.794599999999999,
+   "n_sc": 8
+  },
+  "c4": {
+   "vbm": {
+    "edge": 0.3493975903614458,
+    "left": 0.1746987951807229,
+    "right": 0.1746987951807229,
+    "H": 0.0,
+    "edge_plus_H": 0.3493975903614458
+   },
+   "cbm": {
+    "edge": 0.8861386138613861,
+    "left": 0.4430693069306931,
+    "right": 0.4430693069306931,
+    "H": 0.0,
+    "edge_plus_H": 0.8861386138613861
+   },
+   "psi2_vbm": 0.995,
+   "psi2_cbm": 0.824,
+   "uniform_share": 0.25,
+   "uniform_share_host": 0.25,
+   "along_path": {
+    "VB-1": {
+     "G": 0.494,
+     "X": 0.725,
+     "max": 0.789,
+     "E_G_rel_vbm": -0.245,
+     "E_X_rel_vbm": -0.662
+    },
+    "VB": {
+     "G": 0.349,
+     "X": 0.725,
+     "max": 0.727,
+     "E_G_rel_vbm": 0.0,
+     "E_X_rel_vbm": -0.662
+    },
+    "CB": {
+     "G": 0.886,
+     "X": 0.527,
+     "max": 0.89,
+     "E_G_rel_vbm": 0.409,
+     "E_X_rel_vbm": 1.713
+    },
+    "CB+1": {
+     "G": 0.871,
+     "X": 0.527,
+     "max": 0.891,
+     "E_G_rel_vbm": 0.431,
+     "E_X_rel_vbm": 1.713
+    }
+   },
+   "edge_definition": "edge",
+   "edge_state_sets_gap": true,
+   "host_row_only_flag": true
+  }
+ },
+ "r100_3h": {
+  "n_edge_atoms": 8,
+  "nocc": 100,
+  "runs": {
+   "nm_r100_3h": {
+    "E_Ry": -2144.35836565,
+    "converged": true,
+    "E_F_eV": -2.3727
+   },
+   "fm_r100_3h": {
+    "E_Ry": -2144.35829986,
+    "converged": true,
+    "E_F_eV": -2.3711,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 2.26,
+    "max_site_moment": 0.0
+   }
+  },
+  "c1_k15": {
+   "dE_meV_per_edge": -0.11188981883355052,
+   "lowest": "fm_r100_3h",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_k30": null,
+  "c1_magnetic": false,
+  "c1_basis": "k15 (H ribbon: no k 30 magnetic runs, as pre-registered)",
+  "c3": {
+   "gap_path_eV": 0.7672000000000001,
+   "k_vbm": 0.0,
+   "k_cbm": 0.0,
+   "direct": true,
+   "direct_gap_G_eV": 0.7672000000000001,
+   "direct_gap_X_eV": 2.4669,
+   "gap_grid_k15_eV": 0.7672000000000001,
+   "E_F_eV": -2.3727,
+   "vbm_eV": -2.7612,
+   "metallic": false,
+   "vs_sheet_eV": 0.3632000000000001,
+   "nbnd": 344
+  },
+  "survey": {
+   "levels": {
+    "L": {
+     "level_rel_vbm": 10.278,
+     "nbnd": 234,
+     "per_fu": 19.5
+    },
+    "L+0.5": {
+     "level_rel_vbm": 10.778,
+     "nbnd": 243,
+     "per_fu": 20.25
+    },
+    "L+1.0": {
+     "level_rel_vbm": 11.278,
+     "nbnd": 257,
+     "per_fu": 21.42
+    }
+   },
+   "top_band_min_rel_vbm": 15.651,
+   "n_sc": 12
+  },
+  "c4": {
+   "vbm": {
+    "edge": 0.28688524590163933,
+    "left": 0.14344262295081966,
+    "right": 0.14344262295081966,
+    "H": 0.6844262295081966,
+    "edge_plus_H": 0.9713114754098361
+   },
+   "cbm": {
+    "edge": 0.23170731707317074,
+    "left": 0.11585365853658537,
+    "right": 0.11585365853658537,
+    "H": 0.0,
+    "edge_plus_H": 0.23170731707317074
+   },
+   "psi2_vbm": 0.994,
+   "psi2_cbm": 0.99,
+   "uniform_share": 0.25,
+   "uniform_share_host": 0.3333333333333333,
+   "along_path": {
+    "VB-1": {
+     "G": 0.303,
+     "X": 0.27,
+     "max": 0.303,
+     "E_G_rel_vbm": -0.012,
+     "E_X_rel_vbm": -0.209
+    },
+    "VB": {
+     "G": 0.287,
+     "X": 0.27,
+     "max": 0.299,
+     "E_G_rel_vbm": -0.0,
+     "E_X_rel_vbm": -0.209
+    },
+    "CB": {
+     "G": 0.232,
+     "X": 0.127,
+     "max": 0.232,
+     "E_G_rel_vbm": 0.767,
+     "E_X_rel_vbm": 2.258
+    },
+    "CB+1": {
+     "G": 0.033,
+     "X": 0.127,
+     "max": 0.183,
+     "E_G_rel_vbm": 1.351,
+     "E_X_rel_vbm": 2.258
+    }
+   },
+   "edge_definition": "edge_plus_H",
+   "edge_state_sets_gap": true,
+   "host_row_only_flag": false
+  }
+ },
+ "r110_4h": {
+  "n_edge_atoms": 4,
+  "nocc": 66,
+  "runs": {
+   "nm_r110_4h": {
+    "E_Ry": -1427.92606338,
+    "converged": true,
+    "E_F_eV": -2.662
+   },
+   "fm_r110_4h": {
+    "E_Ry": -1427.92603106,
+    "converged": true,
+    "E_F_eV": -2.6624,
+    "abs_mag": 0.0,
+    "tot_mag": -0.0,
+    "abs_mag_first_iter": 1.43,
+    "max_site_moment": 0.0
+   }
+  },
+  "c1_k15": {
+   "dE_meV_per_edge": -0.10993400024904214,
+   "lowest": "fm_r110_4h",
+   "lowest_abs_mag": 0.0,
+   "max_site_moment": 0.0,
+   "all_collapsed": true
+  },
+  "c1_k30": null,
+  "c1_magnetic": false,
+  "c1_basis": "k15 (H ribbon: no k 30 magnetic runs, as pre-registered)",
+  "c3": {
+   "gap_path_eV": 0.30180000000000007,
+   "k_vbm": 1.0,
+   "k_cbm": 0.0,
+   "direct": false,
+   "direct_gap_G_eV": 0.9981999999999998,
+   "direct_gap_X_eV": 0.9580000000000002,
+   "gap_grid_k15_eV": 0.31979999999999986,
+   "E_F_eV": -2.662,
+   "vbm_eV": -2.8128,
+   "metallic": false,
+   "vs_sheet_eV": -0.10219999999999996,
+   "nbnd": 316
+  },
+  "survey": {
+   "levels": {
+    "L": {
+     "level_rel_vbm": 10.278,
+     "nbnd": 201,
+     "per_fu": 25.12
+    },
+    "L+0.5": {
+     "level_rel_vbm": 10.778,
+     "nbnd": 208,
+     "per_fu": 26.0
+    },
+    "L+1.0": {
+     "level_rel_vbm": 11.278,
+     "nbnd": 217,
+     "per_fu": 27.12
+    }
+   },
+   "top_band_min_rel_vbm": 14.594000000000001,
+   "n_sc": 8
+  },
+  "c4": {
+   "vbm": {
+    "edge": 0.29065040650406504,
+    "left": 0.14532520325203252,
+    "right": 0.14532520325203252,
+    "H": 0.6829268292682926,
+    "edge_plus_H": 0.9735772357723577
+   },
+   "cbm": {
+    "edge": 0.12219959266802444,
+    "left": 0.06109979633401222,
+    "right": 0.06109979633401222,
+    "H": 0.020366598778004074,
+    "edge_plus_H": 0.14256619144602853
+   },
+   "psi2_vbm": 0.993,
+   "psi2_cbm": 0.987,
+   "uniform_share": 0.2,
+   "uniform_share_host": 0.25,
+   "along_path": {
+    "VB-1": {
+     "G": 0.566,
+     "X": 0.291,
+     "max": 0.566,
+     "E_G_rel_vbm": -0.977,
+     "E_X_rel_vbm": 0.0
+    },
+    "VB": {
+     "G": 0.399,
+     "X": 0.291,
+     "max": 0.472,
+     "E_G_rel_vbm": -0.696,
+     "E_X_rel_vbm": 0.0
+    },
+    "CB": {
+     "G": 0.122,
+     "X": 0.084,
+     "max": 0.383,
+     "E_G_rel_vbm": 0.302,
+     "E_X_rel_vbm": 0.958
+    },
+    "CB+1": {
+     "G": 0.022,
+     "X": 0.084,
+     "max": 0.406,
+     "E_G_rel_vbm": 1.06,
+     "E_X_rel_vbm": 0.958
+    }
+   },
+   "edge_definition": "edge_plus_H",
+   "edge_state_sets_gap": true,
+   "host_row_only_flag": false
+  }
+ },
+ "c5_vacuum": {
+  "r100_3": {
+   "gap_vac15_eV": 0.9116000000000001,
+   "gap_vac20_eV": 0.9116,
+   "change_meV": 1.1102230246251565e-13,
+   "dE_tot_meV": -0.011428785102421924,
+   "ok": true
+  },
+  "r110_4": {
+   "gap_vac15_eV": 0.4084,
+   "gap_vac20_eV": 0.3960999999999999,
+   "change_meV": 12.30000000000009,
+   "dE_tot_meV": 6.602434700423489,
+   "ok": false
+  },
+  "r100_3h": {
+   "gap_vac15_eV": 0.7672000000000001,
+   "gap_vac20_eV": 0.7848999999999999,
+   "change_meV": 17.699999999999825,
+   "dE_tot_meV": -19.05626984525224,
+   "ok": false
+  }
+ },
+ "c5_vacuum25": {
+  "r100_3h": {
+   "gap_vac20_eV": 0.7848999999999999,
+   "gap_vac25_eV": 0.7903999999999995,
+   "change_meV": 5.499999999999616,
+   "dE_tot_meV": -5.8357538957291935,
+   "gamma_shift_meV_bands_nocc_m2_to_p1": {
+    "99": -5.55,
+    "100": -5.35,
+    "101": 0.15
+   },
+   "change_15_20_meV": 17.699999999999825,
+   "ok": false
+  },
+  "r110_4": {
+   "gap_vac20_eV": 0.3960999999999999,
+   "gap_vac25_eV": 0.3910999999999998,
+   "change_meV": 5.0000000000001155,
+   "dE_tot_meV": 2.483038994091093,
+   "gamma_shift_meV_bands_nocc_m2_to_p1": {
+    "63": 0.35,
+    "64": 0.15,
+    "65": -4.85
+   },
+   "change_15_20_meV": 12.30000000000009,
+   "ok": false
+  }
+ },
+ "thresholds": {
+  "mag_meV_per_edge": 5.0,
+  "ktest_mag_meV": 1.0,
+  "ktest_gap_meV": 10.0,
+  "edge_weight": 0.5,
+  "vac_gap_meV": 5.0
+ },
+ "L_pbe_rel_vbm": 10.278130478101
+}

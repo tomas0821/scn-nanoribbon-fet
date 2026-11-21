@@ -1,0 +1,3 @@
+&inputpp
+  outdir='./tmp_hse_r100_3', prefix='hse_r100_3'
+/

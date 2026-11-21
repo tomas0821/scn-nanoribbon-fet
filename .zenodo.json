@@ -1,0 +1,12 @@
+{
+  "title": "scn-nanoribbon-fet: code and data for \"Edge orientation and termination in scandium nitride nanoribbon transistors: ballistic limits from Wannier building blocks\"",
+  "upload_type": "software",
+  "description": "Code (the scnfet Python package and analysis scripts) and data (DFT and Wannier90 inputs, Wannier Hamiltonians, Slater-Koster parameters and device results) for the paper \"Edge orientation and termination in scandium nitride nanoribbon transistors: ballistic limits from Wannier building blocks\". Code under the MIT licence; data under CC BY 4.0.",
+  "creators": [
+    {"name": "Rojas, Tomas", "affiliation": "CICIMA, Universidad de Costa Rica", "orcid": "0000-0001-5745-4255"},
+    {"name": "Thorat, Ruhi", "affiliation": "Department of Physics and Astronomy, Ohio University"}
+  ],
+  "license": "MIT",
+  "keywords": ["scandium nitride", "nanoribbon", "field-effect transistor", "Wannier functions", "tight binding", "top-of-barrier model"],
+  "access_right": "open"
+}

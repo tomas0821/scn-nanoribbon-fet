@@ -1,0 +1,23 @@
+&control
+  calculation='scf', prefix='ct_sm24', outdir='./tmp_ct_sm24', pseudo_dir='/path/to/scn_fet/pseudo',
+  verbosity='high', max_seconds=80000
+/
+&system
+  ibrav=6, celldm(1)=5.8757877319, celldm(3)=7.2362787330, nat=4, ntyp=2,
+  ecutwfc=80, ecutrho=320,
+  occupations='smearing', smearing='gaussian', degauss=0.005, nbnd=24,
+  input_dft='hse', nqx1=4, nqx2=4, nqx3=1, ecutfock=160
+/
+&electrons
+  conv_thr=1.0d-9, mixing_beta=0.4
+/
+ATOMIC_SPECIES
+  Sc 44.955908 Sc_ONCV_PBE-1.0.oncvpsp.upf
+  N  14.007 N.oncvpsp.upf
+ATOMIC_POSITIONS crystal
+  Sc 0.0 0.0 0.4518284194
+  N  0.5 0.5 0.4517617653
+  N  0.0 0.0 0.5482382347
+  Sc 0.5 0.5 0.5481715806
+K_POINTS automatic
+  8 8 1 0 0 0

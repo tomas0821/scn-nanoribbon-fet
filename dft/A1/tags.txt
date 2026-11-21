@@ -1,0 +1,8 @@
+pbe_scf
+pbe_scf_bands
+pbe_nscf
+hse_ibz
+hse_ibz_open
+hse_nosym
+hse_q8
+hse_fock320

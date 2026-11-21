@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "scripts/gate_bcd_sk_holdouts.py", line 551, in <module>
+    dict(selftest=selftest, calib=calib, run=run)[sys.argv[1]]()
+  File "scripts/gate_bcd_sk_holdouts.py", line 382, in run
+    r["wannier"]["I_on"] = ion(w_eigs(hr, kg), nv, Lx, Wd, nat)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/gate_bcd_sk_holdouts.py", line 219, in ion
+    m = f.metrics()
+        ^^^^^^^^^^^
+  File "scnfet/tob.py", line 180, in metrics
+    raise RuntimeError("I_OFF not bracketed by the gate sweep; widen it")
+RuntimeError: I_OFF not bracketed by the gate sweep; widen it
+exit 1

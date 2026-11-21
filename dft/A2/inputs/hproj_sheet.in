@@ -1,0 +1,4 @@
+&projwfc
+  prefix='hse_ibz_k16', outdir='./tmp_hse_ibz_k16',
+  filpdos='hpdos_sheet', degauss=0.005, DeltaE=0.01, kresolveddos=.true.
+/

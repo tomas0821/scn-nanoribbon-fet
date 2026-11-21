@@ -1,0 +1,6 @@
+&inputpp
+  prefix='scf_slab3', outdir='./tmp_scf_slab3', filplot='pot_slab3.dat', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='pot_slab3.dat', weight(1)=1.0, iflag=3, output_format=6, fileout='pot_slab3.cube'
+/

@@ -1,0 +1,4 @@
+# Separate environment for scripts/render_ribbons.py and scripts/render_structures.py only (Python 3.12.3)
+ovito==3.17.0
+ase==3.29.0
+pillow==13.0.0

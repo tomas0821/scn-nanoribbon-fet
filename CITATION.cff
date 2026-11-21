@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below, and cite the paper once it is published."
+title: "scn-nanoribbon-fet: code and data for 'Edge orientation and termination in scandium nitride nanoribbon transistors: ballistic limits from Wannier building blocks'"
+type: software
+authors:
+  - family-names: Rojas
+    given-names: Tomas
+    orcid: "https://orcid.org/0000-0001-5745-4255"
+    affiliation: "CICIMA, Universidad de Costa Rica"
+  - family-names: Thorat
+    given-names: Ruhi
+    affiliation: "Department of Physics and Astronomy, Ohio University"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-18"
+keywords:
+  - scandium nitride
+  - nanoribbon
+  - field-effect transistor
+  - Wannier functions
+  - tight binding
+  - top-of-barrier model

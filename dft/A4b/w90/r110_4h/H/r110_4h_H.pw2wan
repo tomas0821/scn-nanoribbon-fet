@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../../tmp_hse_r110_4h', prefix='hse_r110_4h_open', seedname='r110_4h_H',
+  write_amn=.true., write_mmn=.true., write_unk=.false.
+/

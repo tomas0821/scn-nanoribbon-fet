@@ -1,0 +1,560 @@
+{
+ "label": "HSE06",
+ "transfer": {
+  "pd bulk": {
+   "n": 6,
+   "d": 2.2505,
+   "V": [
+    -2.2025,
+    1.2062
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 7.323798765652897e-08,
+   "harrison_pred": [
+    -2.202,
+    1.206
+   ],
+   "ratio_sigma": 1.0
+  },
+  "pp bulk": {
+   "n": 12,
+   "d": 3.182687622120651,
+   "V": [
+    0.5719,
+    -0.1289
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 0.05683105994321216,
+   "harrison_pred": [
+    0.572,
+    -0.129
+   ],
+   "ratio_sigma": 1.0
+  },
+  "dd1 bulk": {
+   "n": 12,
+   "d": 3.182687622120651,
+   "V": [
+    -0.6272,
+    0.08,
+    -0.0185
+   ],
+   "V_spread": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "resid": 0.6292833211965799,
+   "harrison_pred": [
+    -0.627,
+    0.08,
+    -0.018
+   ],
+   "ratio_sigma": 1.0
+  },
+  "pd in-plane": {
+   "n": 8,
+   "d": 2.1986309351876403,
+   "V": [
+    -2.0737,
+    1.3289
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 0.18944268287683733,
+   "harrison_pred": [
+    -2.39,
+    1.309
+   ],
+   "ratio_sigma": 0.868
+  },
+  "pd along z": {
+   "n": 2,
+   "d": 2.1692208447180077,
+   "V": [
+    -1.9736,
+    1.3267
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 1.1531767392443696e-16,
+   "harrison_pred": [
+    -2.505,
+    1.372
+   ],
+   "ratio_sigma": 0.788
+  },
+  "pp inter-plane": {
+   "n": 8,
+   "d": 3.089660741151208,
+   "V": [
+    0.5125,
+    -0.0632
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 0.2153516307366716,
+   "harrison_pred": [
+    0.607,
+    -0.137
+   ],
+   "ratio_sigma": 0.844
+  },
+  "pp in-plane": {
+   "n": 8,
+   "d": 3.109332963841007,
+   "V": [
+    0.687,
+    -0.1953
+   ],
+   "V_spread": [
+    0.0,
+    0.0
+   ],
+   "resid": 0.24150454172150726,
+   "harrison_pred": [
+    0.599,
+    -0.135
+   ],
+   "ratio_sigma": 1.147
+  },
+  "dd1 inter-plane": {
+   "n": 8,
+   "d": 3.087554150008602,
+   "V": [
+    -0.6601,
+    0.088,
+    -0.0194
+   ],
+   "V_spread": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "resid": 0.6485587997438,
+   "harrison_pred": [
+    -0.73,
+    0.093,
+    -0.022
+   ],
+   "ratio_sigma": 0.904
+  },
+  "dd1 in-plane": {
+   "n": 8,
+   "d": 3.109332963841007,
+   "V": [
+    -0.7459,
+    0.09,
+    -0.1376
+   ],
+   "V_spread": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "resid": 0.6168069912608207,
+   "harrison_pred": [
+    -0.705,
+    0.09,
+    -0.021
+   ],
+   "ratio_sigma": 1.058
+  }
+ },
+ "sheet_only": {
+  "cost": 1185.4170381775189,
+  "rms": [
+   37.521000049713145,
+   38.02045406390048
+  ],
+  "masses": {
+   "e6_100": 2.8,
+   "e6_110": 2.7,
+   "h4_100": -8.7,
+   "h5_100": -8.3,
+   "h4_110": -8.8,
+   "h5_110": -7.9
+  },
+  "levels": {
+   "CB_G": [
+    1.415,
+    1.414
+   ],
+   "CB_X": [
+    4.007,
+    4.578
+   ],
+   "CB_M": [
+    2.405,
+    2.403
+   ],
+   "Mbar_offset": [
+    0.99,
+    0.988
+   ]
+  },
+  "params": {
+   "Ep": 0.0,
+   "Et2g": 2.243,
+   "Eeg": -10.007,
+   "pd_s": -1.474,
+   "pd_p": 1.045,
+   "dd1_s": -1.437,
+   "dd1_p": 0.641,
+   "dd1_d": -0.236,
+   "pp_s": 0.525,
+   "pp_p": -0.084,
+   "dd2_s": 0.217,
+   "dd2_p": 0.215,
+   "dd2_d": 0.052,
+   "t3_s": 0.497,
+   "t3_pss": 0.0,
+   "t3_ppp": 0.419,
+   "t3_psp": -0.326,
+   "sh_Sc_xy": 15.111,
+   "sh_Sc_xzyz": 4.368,
+   "sh_Sc_x2y2": 5.354,
+   "sh_Sc_z2": 14.113,
+   "sh_N_z": -0.111,
+   "sh_N_xy": 0.0
+  },
+  "gate_a": {
+   "rms_ok": false,
+   "masses_ok": true
+  },
+  "bulk_with_these_params": {
+   "rms": [
+    7748.881583394232,
+    6843.956266903369
+   ],
+   "masses": {
+    "m_l": -74.8,
+    "m_t": 2508.5,
+    "hh100": -66.5,
+    "lh100": 433.3,
+    "hh110": -75.7,
+    "lh110": 604.6
+   }
+  }
+ },
+ "gamma_character": {
+  "Wannier": [
+   [
+    -3.012,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.021,
+     "N pxy": 0.0,
+     "N pz": 0.979
+    }
+   ],
+   [
+    -2.19,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.234,
+     "N pxy": 0.0,
+     "N pz": 0.766
+    }
+   ],
+   [
+    -0.648,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.053,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.947,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.648,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.053,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.947,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.034,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.966,
+     "N pz": 0.0
+    }
+   ],
+   [
+    0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.034,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.966,
+     "N pz": 0.0
+    }
+   ],
+   [
+    1.414,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    2.157,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.979,
+     "N pxy": 0.0,
+     "N pz": 0.021
+    }
+   ],
+   [
+    2.994,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    4.825,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.766,
+     "N pxy": 0.0,
+     "N pz": 0.234
+    }
+   ]
+  ],
+  "joint fit": [
+   [
+    -3.511,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.142,
+     "N pxy": 0.0,
+     "N pz": 0.858
+    }
+   ],
+   [
+    -1.291,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.118,
+     "N pxy": 0.0,
+     "N pz": 0.882
+    }
+   ],
+   [
+    -0.682,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.038,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.962,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.682,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.038,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.962,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.019,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.981,
+     "N pz": 0.0
+    }
+   ],
+   [
+    0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.019,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.981,
+     "N pz": 0.0
+    }
+   ],
+   [
+    1.419,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    2.018,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.858,
+     "N pxy": 0.0,
+     "N pz": 0.142
+    }
+   ],
+   [
+    2.95,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 1.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    3.145,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ]
+  ],
+  "sheet-only fit": [
+   [
+    -3.07,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.122,
+     "N pxy": 0.0,
+     "N pz": 0.878
+    }
+   ],
+   [
+    -1.27,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.133,
+     "N pxy": 0.0,
+     "N pz": 0.867
+    }
+   ],
+   [
+    -0.692,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.043,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.957,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.692,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.043,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.957,
+     "N pz": 0.0
+    }
+   ],
+   [
+    -0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.016,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.984,
+     "N pz": 0.0
+    }
+   ],
+   [
+    0.0,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.016,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.984,
+     "N pz": 0.0
+    }
+   ],
+   [
+    1.415,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    2.028,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.878,
+     "N pxy": 0.0,
+     "N pz": 0.122
+    }
+   ],
+   [
+    3.041,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 0.0,
+     "Sc eg in-plane (xy)": 1.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ],
+   [
+    3.36,
+    {
+     "Sc t2g-like (x2-y2, xz, yz)": 1.0,
+     "Sc eg in-plane (xy)": 0.0,
+     "Sc z2": 0.0,
+     "N pxy": 0.0,
+     "N pz": 0.0
+    }
+   ]
+  ]
+ }
+}

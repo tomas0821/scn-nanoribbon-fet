@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../tmp_scf_r110_4', prefix='scf_r110_4', seedname='r110_4_S',
+  write_amn=.true., write_mmn=.false., write_unk=.false.
+/

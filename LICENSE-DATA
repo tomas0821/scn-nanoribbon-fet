@@ -1,0 +1,16 @@
+Data licence
+
+The data in this repository (DFT and Wannier90 inputs and outputs, Wannier Hamiltonians, parsed summaries, Slater-Koster
+parameters and device results; everything except the source code covered by LICENSE) is
+
+    Copyright (c) 2026 Tomas Rojas and Ruhi Thorat
+
+and is licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt the data for any purpose, provided you give appropriate credit (cite the paper and this
+repository; see CITATION.cff), link to the licence, and indicate if changes were made.
+
+Third-party material: scnfet/data/deng2015_fig1a_paths.json holds band paths digitised from Fig. 1(a) of
+Deng et al., Phys. Rev. B 91, 045104 (2015); cite that paper if you use them. The HfS2 benchmark inputs
+(QUDEN_MATERIALS, Poljak and Matić, CC BY-NC-SA 4.0) are not included.

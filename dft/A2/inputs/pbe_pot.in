@@ -1,0 +1,6 @@
+&inputpp
+  prefix='pbe_scf', outdir='./tmp_pbe_scf', filplot='pbe_scf.pot', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='pbe_scf.pot', weight(1)=1.0, iflag=3, output_format=6, fileout='pbe_scf_pot.cube'
+/

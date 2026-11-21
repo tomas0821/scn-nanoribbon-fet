@@ -1,0 +1,6 @@
+&inputpp
+  prefix='hse_r100_6', outdir='./tmp_hse_r100_6', filplot='hpot_r100_6.dat', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='hpot_r100_6.dat', weight(1)=1.0, iflag=3, output_format=6, fileout='hpot_r100_6.cube'
+/

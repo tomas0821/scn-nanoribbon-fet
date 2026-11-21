@@ -1,0 +1,4 @@
+&projwfc
+  prefix='pbe_scf', outdir='./tmp_pbe_scf',
+  filpdos='ppdos_sheet', degauss=0.005, DeltaE=0.01, kresolveddos=.true.
+/

@@ -1,0 +1,38 @@
+  100h: skipped by the H rule
+  110h n  4 W 1.39 nm: HSE gap 1.444 valley +0.754 m_VB -0.858 m_CB +0.291 | I_ON n 1.58/2.78 p 0.86/1.43 | PBE gap 0.251 | 40 s
+  110h n  5 W 1.70 nm: HSE gap 1.275 valley +0.804 m_VB -0.852 m_CB +0.250 | I_ON n 1.78/3.17 p 0.87/1.45 | PBE gap 0.118 | 53 s
+  110h n  6 W 2.01 nm: HSE gap 1.173 valley +0.838 m_VB -0.851 m_CB +0.229 | I_ON n 1.93/3.45 p 0.88/1.48 | PBE gap 0.035 | 63 s
+  110h n  7 W 2.32 nm: HSE gap 1.106 valley +0.864 m_VB -0.849 m_CB +0.217 | I_ON n 2.06/3.64 p 0.89/1.50 | PBE gap -0.021 | 78 s
+  110h n  8 W 2.63 nm: HSE gap 1.060 valley +0.883 m_VB -0.849 m_CB +0.209 | I_ON n 2.17/3.75 p 0.89/1.53 | PBE gap -0.061 | 93 s
+  110h n  9 W 2.94 nm: HSE gap 1.025 valley +0.898 m_VB -0.849 m_CB +0.204 | I_ON n 2.25/3.80 p 0.90/1.55 | PBE gap -0.090 | 106 s
+  110h n 10 W 3.25 nm: HSE gap 0.999 valley +0.911 m_VB -0.849 m_CB +0.200 | I_ON n 2.32/3.82 p 0.91/1.58 | PBE gap -0.113 | 151 s
+  110h n 11 W 3.56 nm: HSE gap 0.979 valley +0.921 m_VB -0.849 m_CB +0.197 | I_ON n 2.37/3.80 p 0.92/1.60 | PBE gap -0.131 | 163 s
+  110h n 12 W 3.88 nm: HSE gap 0.963 valley +0.929 m_VB -0.849 m_CB +0.195 | I_ON n 2.41/3.76 p 0.93/1.63 | PBE gap -0.146 | 175 s
+  110h n 13 W 4.19 nm: HSE gap 0.950 valley +0.936 m_VB -0.849 m_CB +0.193 | I_ON n 2.43/3.68 p 0.94/1.65 | PBE gap -0.158 | 206 s
+  110h n 14 W 4.50 nm: HSE gap 0.939 valley +0.942 m_VB -0.849 m_CB +0.192 | I_ON n 2.43/3.57 p 0.95/1.68 | PBE gap -0.168 | 213 s
+  110h n 15 W 4.81 nm: HSE gap 0.930 valley +0.947 m_VB -0.849 m_CB +0.191 | I_ON n 2.41/3.48 p 0.96/1.71 | PBE gap -0.176 | 222 s
+  110h n 16 W 5.12 nm: HSE gap 0.923 valley +0.951 m_VB -0.849 m_CB +0.189 | I_ON n 2.36/3.42 p 0.97/1.73 | PBE gap -0.183 | 269 s
+  110h n 17 W 5.43 nm: HSE gap 0.916 valley +0.955 m_VB -0.849 m_CB +0.189 | I_ON n 2.32/3.39 p 0.98/1.75 | PBE gap -0.189 | 340 s
+  110h n 18 W 5.74 nm: HSE gap 0.911 valley +0.958 m_VB -0.849 m_CB +0.188 | I_ON n 2.28/3.39 p 0.99/1.78 | PBE gap -0.195 | 324 s
+  110h n 19 W 6.05 nm: HSE gap 0.906 valley +0.961 m_VB -0.849 m_CB +0.187 | I_ON n 2.26/3.41 p 1.00/1.80 | PBE gap -0.199 | 436 s
+  110h n 20 W 6.36 nm: HSE gap 0.902 valley +0.963 m_VB -0.849 m_CB +0.187 | I_ON n 2.25/3.43 p 1.01/1.82 | PBE gap -0.203 | 503 s
+peak RSS 2105960 kB, wall 57:18.94
+  r100_3 (HW3): W 1.09 nm, gap 1.964 (grid 1.964); I_ON n 2.75 p 3.34 (EOT 0.6)
+  r110_4 (HW1): W 1.07 nm, gap 1.053 (grid 1.058); I_ON n 1.31 p 1.48 (EOT 0.6)
+  r100_3h (HW2): W 1.32 nm, gap 1.972 (grid 1.972); I_ON n 2.87 p 0.81 (EOT 0.6)
+  r110_4h (HW2): W 1.39 nm, gap 1.487 (grid 1.487); I_ON n 2.66 p 1.42 (EOT 0.6)
+peak RSS 198948 kB, wall 4:43.62
+  SK-HSE [100] n 3: gap 2.047 I_ON n/p (0.6) 2.75/4.13
+  SK-HSE [100] n 4: gap 1.848 I_ON n/p (0.6) 3.12/4.41
+  SK-HSE [100] n 5: gap 1.731 I_ON n/p (0.6) 3.41/4.44
+  SK-HSE [100] n 6: gap 1.656 I_ON n/p (0.6) 3.60/4.07
+  SK-HSE [100] n 7: gap 1.605 I_ON n/p (0.6) 3.70/3.67
+  SK-HSE [100] n 8: gap 1.569 I_ON n/p (0.6) 3.73/3.43
+  SK-HSE [100] n 9: gap 1.542 I_ON n/p (0.6) 3.68/3.31
+  SK-HSE [100] n 10: gap 1.522 I_ON n/p (0.6) 3.54/3.28
+  SK-HSE [100] n 11: gap 1.507 I_ON n/p (0.6) 3.41/3.28
+  SK-HSE [100] n 12: gap 1.494 I_ON n/p (0.6) 3.35/3.30
+  SK-HSE [100] n 13: gap 1.484 I_ON n/p (0.6) 3.34/3.33
+  SK-HSE [100] n 14: gap 1.476 I_ON n/p (0.6) 3.36/3.35
+peak RSS 804404 kB, wall 1:17:12
+exit 0

@@ -1,0 +1,8 @@
+scf_slab3
+pot_slab3
+bands_slab3
+projwfc_slab3
+nscf_slab3
+w90pp_slab3
+p2w_slab3_B
+p2w_slab3_S

@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../tmp_pbe_k16', prefix='pbe_scf', seedname='pbe_k16',
+  write_amn=.true., write_mmn=.true., write_unk=.false.
+/

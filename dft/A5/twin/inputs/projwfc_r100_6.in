@@ -1,0 +1,4 @@
+&projwfc
+  prefix='scf_r100_6', outdir='./tmp_scf_r100_6',
+  filpdos='pdos_r100_6', degauss=0.005, DeltaE=0.01, kresolveddos=.true.
+/

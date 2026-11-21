@@ -1,0 +1,6 @@
+&inputpp
+  prefix='hse_ibz_k16', outdir='./tmp_hse_ibz_k16', filplot='hse_ibz_k16.pot', plot_num=11
+/
+&plot
+  nfile=1, filepp(1)='hse_ibz_k16.pot', weight(1)=1.0, iflag=3, output_format=6, fileout='hse_pot.cube'
+/

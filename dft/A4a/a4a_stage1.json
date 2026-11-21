@@ -1,0 +1,132 @@
+{
+ "r100_3": {
+  "converged": true,
+  "bfgs_steps": [
+   14
+  ],
+  "E_final_Ry": -2135.0038679631,
+  "core_h": 190.2,
+  "abs_mag_first_iter": 2.22,
+  "abs_mag_max": 2.35,
+  "abs_mag_last": 0.0,
+  "zero_moment_restart": true,
+  "n_atoms": 24,
+  "max_disp_A": 0.07427620892552222,
+  "max_disp_edge_A": 0.07427620892552222,
+  "max_disp_inner_A": 0.030182730089955968,
+  "edge_bonds_A": [
+   2.051,
+   2.199
+  ],
+  "inner_bonds_A": [
+   2.133,
+   2.217
+  ],
+  "plane_sep_A": {
+   "edge": [
+    2.051,
+    2.051
+   ],
+   "inner": [
+    2.169,
+    2.217
+   ]
+  },
+  "width_A": 10.9067945607,
+  "width0_A": 10.993152118494212,
+  "nocc": 96,
+  "gap_grid_eV": 0.9116,
+  "k_vbm": 0,
+  "k_cbm": 0,
+  "direct_gap_G_eV": 0.9116
+ },
+ "r110_4": {
+  "converged": true,
+  "bfgs_steps": [
+   16
+  ],
+  "E_final_Ry": -1423.0784782643,
+  "core_h": 109.8,
+  "abs_mag_first_iter": 1.51,
+  "abs_mag_max": 2.12,
+  "abs_mag_last": 0.0,
+  "zero_moment_restart": true,
+  "n_atoms": 16,
+  "max_disp_A": 0.23459088257271457,
+  "max_disp_edge_A": 0.23459088257271457,
+  "max_disp_inner_A": 0.1379072262622974,
+  "edge_bonds_A": [
+   1.891,
+   2.065
+  ],
+  "inner_bonds_A": [
+   2.045,
+   2.363
+  ],
+  "plane_sep_A": {
+   "edge": [
+    1.89,
+    1.89
+   ],
+   "inner": [
+    2.142,
+    2.363
+   ]
+  },
+  "width_A": 10.6511183452,
+  "width0_A": 10.882665373443526,
+  "nocc": 64,
+  "gap_grid_eV": 0.40789999999999993,
+  "k_vbm": 0,
+  "k_cbm": 0,
+  "direct_gap_G_eV": 0.40789999999999993
+ },
+ "r100_3h": {
+  "converged": true,
+  "bfgs_steps": [
+   43
+  ],
+  "E_final_Ry": -2144.3583656504,
+  "core_h": 279.7,
+  "n_atoms": 32,
+  "max_disp_A": 1.761175387284986,
+  "max_disp_edge_A": 0.06678459914388431,
+  "max_disp_inner_A": 0.02483585046589558,
+  "edge_bonds_A": [
+   2.188,
+   2.21
+  ],
+  "inner_bonds_A": [
+   2.168,
+   2.218
+  ],
+  "plane_sep_A": {
+   "edge": [
+    2.21,
+    2.21
+   ],
+   "inner": [
+    2.168,
+    2.18
+   ]
+  },
+  "width_A": 11.0107911411,
+  "width0_A": 10.993152118494212,
+  "H_bond_A": {
+   "N": [
+    1.043,
+    1.043
+   ],
+   "Sc": [
+    1.879,
+    1.879
+   ]
+  },
+  "max_disp_H_A": 1.761175387284986,
+  "nocc": 100,
+  "gap_grid_eV": 0.7672000000000001,
+  "k_vbm": 0,
+  "k_cbm": 0,
+  "direct_gap_G_eV": 0.7672000000000001
+ }
+}

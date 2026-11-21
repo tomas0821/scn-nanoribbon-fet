@@ -1,0 +1,370 @@
+{
+ "r100_3": {
+  "nbnd": 267,
+  "nk_ibz": 7,
+  "exx_outer_steps": 5,
+  "dexx_final_Ry": 7.7e-10,
+  "vbm": -1.6539,
+  "cbm": 0.3104,
+  "gap_grid": 1.9643,
+  "vacuum": {
+   "E_vac_eV": 2.2760896406801083,
+   "spread_meV": 5.345903589576206,
+   "n_points": 581,
+   "max_dist_A": 10.679428422004724
+  },
+  "E_vac_rel_vbm": 3.929989640680108,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": 0.66137,
+    "E_rel_vbm": 2.31527,
+    "s_out": 0.62,
+    "k_index": 0,
+    "band": 98,
+    "psi2": 0.703
+   },
+   "0.20": {
+    "E_eV": 0.66137,
+    "E_rel_vbm": 2.31527,
+    "s_out": 0.62,
+    "k_index": 0,
+    "band": 98,
+    "psi2": 0.703
+   },
+   "0.30": {
+    "E_eV": 0.66137,
+    "E_rel_vbm": 2.31527,
+    "s_out": 0.62,
+    "k_index": 0,
+    "band": 98,
+    "psi2": 0.703
+   }
+  },
+  "nonmodel_source": "projwfc on the HSE SCF",
+  "outer": 9.3961,
+  "outer_rel_vbm": 11.05,
+  "outer_capped": false,
+  "top_band_min_rel_vbm": 11.5856,
+  "H3": {
+   "device_top": 0.8104,
+   "first_nonmodel_E": 0.66137,
+   "first_nonmodel_rel_cbm": 0.35097,
+   "stop": true,
+   "stop_at_0p20": true,
+   "stop_at_0p30": true
+  },
+  "variants": {
+   "W1": {
+    "seed": "B",
+    "num_wann": 96,
+    "froz": 1.7760896406801083,
+    "froz_rel_vbm": 3.429989640680108,
+    "froz_rel_cbm": 1.4656896406801083,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 47,
+    "min_outer_bands": 167,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   },
+   "W2": {
+    "seed": "B",
+    "num_wann": 96,
+    "froz": 0.56137,
+    "froz_rel_vbm": 2.21527,
+    "froz_rel_cbm": 0.25097,
+    "binding": "non-model state",
+    "device_inside_frozen": false,
+    "max_frozen_bands": 37,
+    "min_outer_bands": 167,
+    "ok_counts": true,
+    "vac_margin": 1.7147196406801082,
+    "H1_ok": true
+   },
+   "W3": {
+    "seed": "S",
+    "num_wann": 108,
+    "froz": 1.7760896406801083,
+    "froz_rel_vbm": 3.429989640680108,
+    "froz_rel_cbm": 1.4656896406801083,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 47,
+    "min_outer_bands": 167,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   }
+  }
+ },
+ "r110_4h": {
+  "nbnd": 205,
+  "nk_ibz": 9,
+  "exx_outer_steps": 5,
+  "dexx_final_Ry": 7.4e-10,
+  "vbm": -3.5422,
+  "cbm": -2.0555,
+  "gap_grid": 1.4867,
+  "vacuum": {
+   "E_vac_eV": 1.8654670562974027,
+   "spread_meV": 56.52787556683903,
+   "n_points": 1309,
+   "max_dist_A": 12.472171705135034
+  },
+  "E_vac_rel_vbm": 5.407667056297402,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": -1.41385,
+    "E_rel_vbm": 2.1283499999999997,
+    "s_out": 0.543,
+    "k_index": 0,
+    "band": 68,
+    "psi2": 0.775
+   },
+   "0.20": {
+    "E_eV": -1.41385,
+    "E_rel_vbm": 2.1283499999999997,
+    "s_out": 0.543,
+    "k_index": 0,
+    "band": 68,
+    "psi2": 0.775
+   },
+   "0.30": {
+    "E_eV": -1.41385,
+    "E_rel_vbm": 2.1283499999999997,
+    "s_out": 0.543,
+    "k_index": 0,
+    "band": 68,
+    "psi2": 0.775
+   }
+  },
+  "nonmodel_source": "projwfc on the HSE SCF",
+  "outer": 7.507800000000001,
+  "outer_rel_vbm": 11.05,
+  "outer_capped": false,
+  "top_band_min_rel_vbm": 11.684999999999999,
+  "H3": {
+   "device_top": -1.5554999999999999,
+   "first_nonmodel_E": -1.41385,
+   "first_nonmodel_rel_cbm": 0.6416499999999998,
+   "stop": false,
+   "stop_at_0p20": false,
+   "stop_at_0p30": false
+  },
+  "variants": {
+   "W1": {
+    "seed": "B",
+    "num_wann": 68,
+    "froz": 1.3654670562974027,
+    "froz_rel_vbm": 4.907667056297402,
+    "froz_rel_cbm": 3.4209670562974024,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 47,
+    "min_outer_bands": 133,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   },
+   "W2": {
+    "seed": "B",
+    "num_wann": 68,
+    "froz": -1.5138500000000001,
+    "froz_rel_vbm": 2.0283499999999997,
+    "froz_rel_cbm": 0.5416499999999997,
+    "binding": "non-model state",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 27,
+    "min_outer_bands": 133,
+    "ok_counts": true,
+    "vac_margin": 3.3793170562974026,
+    "H1_ok": true
+   }
+  }
+ },
+ "r110_4": {
+  "nbnd": 214,
+  "nk_ibz": 9,
+  "exx_outer_steps": 6,
+  "dexx_final_Ry": 9.6e-11,
+  "vbm": -2.3973,
+  "cbm": -1.3394,
+  "gap_grid": 1.0579,
+  "vacuum": {
+   "E_vac_eV": 1.3225253540372655,
+   "spread_meV": 26.76806741173077,
+   "n_points": 1125,
+   "max_dist_A": 14.303381588881908
+  },
+  "E_vac_rel_vbm": 3.7198253540372654,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": -1.33937,
+    "E_rel_vbm": 1.05793,
+    "s_out": 0.282,
+    "k_index": 0,
+    "band": 65,
+    "psi2": 0.789
+   },
+   "0.20": {
+    "E_eV": -1.33937,
+    "E_rel_vbm": 1.05793,
+    "s_out": 0.282,
+    "k_index": 0,
+    "band": 65,
+    "psi2": 0.789
+   },
+   "0.30": {
+    "E_eV": 0.10628,
+    "E_rel_vbm": 2.50358,
+    "s_out": 0.586,
+    "k_index": 0,
+    "band": 68,
+    "psi2": 0.693
+   }
+  },
+  "nonmodel_source": "projwfc on the HSE SCF",
+  "outer": 8.652700000000001,
+  "outer_rel_vbm": 11.05,
+  "outer_capped": false,
+  "top_band_min_rel_vbm": 11.328299999999999,
+  "H3": {
+   "device_top": -0.8393999999999999,
+   "first_nonmodel_E": -1.33937,
+   "first_nonmodel_rel_cbm": 2.999999999997449e-05,
+   "stop": true,
+   "stop_at_0p20": true,
+   "stop_at_0p30": false
+  },
+  "variants": {
+   "W1": {
+    "seed": "B",
+    "num_wann": 66,
+    "froz": 0.8225253540372655,
+    "froz_rel_vbm": 3.2198253540372654,
+    "froz_rel_cbm": 2.1619253540372654,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 30,
+    "min_outer_bands": 154,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   },
+   "W2": {
+    "seed": "B",
+    "num_wann": 66,
+    "froz": -1.43937,
+    "froz_rel_vbm": 0.95793,
+    "froz_rel_cbm": -0.09997000000000011,
+    "binding": "non-model state",
+    "device_inside_frozen": false,
+    "max_frozen_bands": 24,
+    "min_outer_bands": 154,
+    "ok_counts": true,
+    "vac_margin": 2.7618953540372653,
+    "H1_ok": true
+   },
+   "W3": {
+    "seed": "S",
+    "num_wann": 72,
+    "froz": 0.8225253540372655,
+    "froz_rel_vbm": 3.2198253540372654,
+    "froz_rel_cbm": 2.1619253540372654,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 30,
+    "min_outer_bands": 154,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   }
+  }
+ },
+ "r100_3h": {
+  "nbnd": 273,
+  "nk_ibz": 7,
+  "exx_outer_steps": 5,
+  "dexx_final_Ry": 8.3e-10,
+  "vbm": -4.485,
+  "cbm": -2.5132,
+  "gap_grid": 1.9718000000000004,
+  "vacuum": {
+   "E_vac_eV": 2.090984303638292,
+   "spread_meV": 15.380102267782636,
+   "n_points": 785,
+   "max_dist_A": 12.242155491801958
+  },
+  "E_vac_rel_vbm": 6.575984303638292,
+  "nonmodel": {
+   "0.25": {
+    "E_eV": -1.68436,
+    "E_rel_vbm": 2.8006400000000005,
+    "s_out": 0.483,
+    "k_index": 0,
+    "band": 104,
+    "psi2": 0.813
+   },
+   "0.20": {
+    "E_eV": -1.68436,
+    "E_rel_vbm": 2.8006400000000005,
+    "s_out": 0.483,
+    "k_index": 0,
+    "band": 104,
+    "psi2": 0.813
+   },
+   "0.30": {
+    "E_eV": -1.68436,
+    "E_rel_vbm": 2.8006400000000005,
+    "s_out": 0.483,
+    "k_index": 0,
+    "band": 104,
+    "psi2": 0.813
+   }
+  },
+  "nonmodel_source": "projwfc on the HSE SCF",
+  "outer": 6.565,
+  "outer_rel_vbm": 11.05,
+  "outer_capped": false,
+  "top_band_min_rel_vbm": 11.7538,
+  "H3": {
+   "device_top": -2.0132,
+   "first_nonmodel_E": -1.68436,
+   "first_nonmodel_rel_cbm": 0.8288399999999998,
+   "stop": false,
+   "stop_at_0p20": false,
+   "stop_at_0p30": false
+  },
+  "variants": {
+   "W1": {
+    "seed": "B",
+    "num_wann": 104,
+    "froz": 1.590984303638292,
+    "froz_rel_vbm": 6.075984303638292,
+    "froz_rel_cbm": 4.1041843036382915,
+    "binding": "vacuum",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 77,
+    "min_outer_bands": 175,
+    "ok_counts": true,
+    "vac_margin": 0.5,
+    "H1_ok": true
+   },
+   "W2": {
+    "seed": "B",
+    "num_wann": 104,
+    "froz": -1.7843600000000002,
+    "froz_rel_vbm": 2.70064,
+    "froz_rel_cbm": 0.7288399999999997,
+    "binding": "non-model state",
+    "device_inside_frozen": true,
+    "max_frozen_bands": 42,
+    "min_outer_bands": 175,
+    "ok_counts": true,
+    "vac_margin": 3.8753443036382924,
+    "H1_ok": true
+   }
+  }
+ }
+}

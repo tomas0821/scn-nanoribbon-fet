@@ -1,0 +1,4 @@
+&projwfc
+  prefix='hse_slab3', outdir='./tmp_hse_slab3',
+  filpdos='hpdos_slab3', degauss=0.005, DeltaE=0.01, kresolveddos=.true.
+/

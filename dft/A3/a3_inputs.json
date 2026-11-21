@@ -1,0 +1,71 @@
+{
+ "nplanes": 3,
+ "vacuum": 20.0,
+ "nat": 6,
+ "species": [
+  "Sc",
+  "N",
+  "N",
+  "Sc",
+  "Sc",
+  "N"
+ ],
+ "cell": [
+  3.1093,
+  3.1093,
+  24.337
+ ],
+ "k_relax": 12,
+ "relaxed": {
+  "z": [
+   9.9374,
+   9.9231,
+   12.1685,
+   12.1685,
+   14.3996,
+   14.4139
+  ],
+  "species": [
+   "Sc",
+   "N",
+   "N",
+   "Sc",
+   "Sc",
+   "N"
+  ],
+  "spacing_outer_middle": [
+   2.2311,
+   2.2454
+  ],
+  "rumpling_outer_N_minus_Sc": 0.0143
+ },
+ "stage2": {
+  "nbnd": 84,
+  "nexcl": 15,
+  "num_wann_B": 24,
+  "num_wann_S": 27,
+  "k": 16,
+  "nq": 8,
+  "vac_check": 27.5,
+  "c_vac": 31.837,
+  "nbnd_vac": 36,
+  "tags_pbe": [
+   "scf_slab3",
+   "pot_slab3",
+   "bands_slab3",
+   "projwfc_slab3",
+   "nscf_slab3",
+   "w90pp_slab3",
+   "p2w_slab3_B",
+   "p2w_slab3_S"
+  ],
+  "tags_hse": [
+   "hse_slab3",
+   "hpot_slab3",
+   "hproj_slab3",
+   "hopen_slab3",
+   "hw90pp_slab3",
+   "hp2w_slab3"
+  ]
+ }
+}

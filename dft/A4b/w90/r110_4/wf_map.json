@@ -1,0 +1,696 @@
+{
+"B": [
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "s"
+}
+],
+"S": [
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dz2"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dxz"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dyz"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dx2-y2"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "dxy"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 1,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 3,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 5,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 7,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 8,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 10,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 12,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "pz"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "px"
+},
+{
+"atom": 14,
+"species": "N",
+"orbital": "py"
+},
+{
+"atom": 0,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 2,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 4,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 6,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 9,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 11,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 13,
+"species": "Sc",
+"orbital": "s"
+},
+{
+"atom": 15,
+"species": "Sc",
+"orbital": "s"
+}
+]
+}

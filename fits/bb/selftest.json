@@ -1,0 +1,26 @@
+{
+ "rotation PBE": {
+  "max_dev_eV": 1.021405182655144e-14,
+  "ok": true
+ },
+ "rotation HSE06": {
+  "max_dev_eV": 1.2434497875801753e-14,
+  "ok": true
+ },
+ "orb_rot": {
+  "orthogonal": true,
+  "ok": true
+ },
+ "rows r110_8 / r110_4": {
+  "T_rows": 16,
+  "C_rows": 8,
+  "h": 4,
+  "ok": true
+ },
+ "rows r100_6 / r100_3": {
+  "T_rows": 12,
+  "C_rows": 6,
+  "h": 3,
+  "ok": true
+ }
+}

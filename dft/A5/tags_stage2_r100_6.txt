@@ -1,0 +1,5 @@
+nm_r100_6
+fm_r100_6
+afm_edges_r100_6
+bands_r100_6
+projwfc_r100_6

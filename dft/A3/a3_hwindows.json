@@ -1,0 +1,163 @@
+{
+ "nbnd": 84,
+ "nk_ibz": 45,
+ "exx_outer_steps": 5,
+ "dexx_final_Ry": 1.3e-10,
+ "vbm": 0.8567,
+ "cbm": 1.9622,
+ "gap_grid": 1.1055,
+ "levels": {
+  "nocc": 24,
+  "gap_grid": 1.1055,
+  "gap_G": 1.1055,
+  "CB_X_minus_CB_G": 3.3172999999999995,
+  "Mbar_offset": 0.6756,
+  "VB_M_minus_VB_G": -0.5720000000000001,
+  "k_vbm": [
+   0.0,
+   0.0
+  ],
+  "k_cbm": [
+   0.0,
+   0.0
+  ]
+ },
+ "vacuum": {
+  "E_vac_eV": 4.716303402534496,
+  "spread_meV": 0.026035585606543066,
+  "n_points": 27,
+  "min_dist_to_atom_A": 8.751240078916187
+ },
+ "E_vac_rel_vbm": 3.8596034025344963,
+ "nonmodel": {
+  "B": {
+   "0.25": {
+    "E_eV": 3.32242,
+    "E_rel_vbm": 2.46572,
+    "E_rel_cbm": 1.3602200000000002,
+    "s_out": 0.629,
+    "k_index": 0,
+    "band": 27,
+    "psi2": 0.794,
+    "top": {
+     "Sc s": 0.462,
+     "Sc d": 0.449,
+     "N s": 0.071
+    }
+   },
+   "0.20": {
+    "E_eV": 3.32242,
+    "E_rel_vbm": 2.46572,
+    "E_rel_cbm": 1.3602200000000002,
+    "s_out": 0.629,
+    "k_index": 0,
+    "band": 27,
+    "psi2": 0.794,
+    "top": {
+     "Sc s": 0.462,
+     "Sc d": 0.449,
+     "N s": 0.071
+    }
+   },
+   "0.30": {
+    "E_eV": 3.32242,
+    "E_rel_vbm": 2.46572,
+    "E_rel_cbm": 1.3602200000000002,
+    "s_out": 0.629,
+    "k_index": 0,
+    "band": 27,
+    "psi2": 0.794,
+    "top": {
+     "Sc s": 0.462,
+     "Sc d": 0.449,
+     "N s": 0.071
+    }
+   }
+  },
+  "S": {
+   "0.25": {
+    "E_eV": 3.32242,
+    "E_rel_vbm": 2.46572,
+    "E_rel_cbm": 1.3602200000000002,
+    "s_out": 0.262,
+    "k_index": 0,
+    "band": 27,
+    "psi2": 0.794,
+    "top": {
+     "Sc s": 0.462,
+     "Sc d": 0.449,
+     "N s": 0.071
+    }
+   },
+   "0.20": {
+    "E_eV": 3.32242,
+    "E_rel_vbm": 2.46572,
+    "E_rel_cbm": 1.3602200000000002,
+    "s_out": 0.262,
+    "k_index": 0,
+    "band": 27,
+    "psi2": 0.794,
+    "top": {
+     "Sc s": 0.462,
+     "Sc d": 0.449,
+     "N s": 0.071
+    }
+   },
+   "0.30": {
+    "E_eV": 4.04464,
+    "E_rel_vbm": 3.18794,
+    "E_rel_cbm": 2.08244,
+    "s_out": 0.587,
+    "k_index": 0,
+    "band": 29,
+    "psi2": 0.441,
+    "top": {
+     "Sc s": 0.436,
+     "N p": 0.323,
+     "Sc d": 0.177
+    }
+   }
+  }
+ },
+ "outer": 11.9067,
+ "outer_rel_vbm": 11.05,
+ "outer_capped": false,
+ "top_band_min_rel_vbm": 19.5551,
+ "H3": {
+  "device_top": 2.4622,
+  "first_nonmodel_rel_cbm": 1.3602200000000002,
+  "inside": false,
+  "inside_at_0p20": false,
+  "inside_at_0p30": false
+ },
+ "variants": {
+  "W1": {
+   "seed": "B",
+   "num_wann": 24,
+   "froz": 4.216303402534496,
+   "froz_rel_vbm": 3.3596034025344963,
+   "froz_rel_cbm": 2.254103402534496,
+   "binding": "vacuum",
+   "covers_device": true,
+   "max_frozen_bands": 14,
+   "min_outer_bands": 31,
+   "ok_counts": true,
+   "vac_margin": 0.5,
+   "H1_ok": true
+  },
+  "W2": {
+   "seed": "B",
+   "num_wann": 24,
+   "froz": 3.22242,
+   "froz_rel_vbm": 2.36572,
+   "froz_rel_cbm": 1.2602200000000001,
+   "binding": "non-model state",
+   "covers_device": true,
+   "max_frozen_bands": 11,
+   "min_outer_bands": 31,
+   "ok_counts": true,
+   "vac_margin": 1.4938834025344963,
+   "H1_ok": true
+  }
+ }
+}

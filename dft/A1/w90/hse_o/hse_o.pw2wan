@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../tmp_hse_ibz', prefix='hse_ibz_open', seedname='hse_o',
+  write_amn=.true., write_mmn=.true., write_unk=.false.
+/

@@ -1,0 +1,8 @@
+67b0aa46952ff323ea66a67d55260036  scnfet/cg_array.py
+7102c2a0d2bd2d96032b78689f3f8423  scnfet/cg.py
+2db98c935f436deb9a9f492d037d1027  scnfet/tob.py
+4932bc7112e2734006aca86443b84ac1  scripts/t1_cg_array.py
+100b35633792386608a6d0de1ae471e5  scripts/t1_bb_widths.py
+# recorded 2026-11-17 18:12, before the first device run; PREREG_array.md md5 d27cea0ca96171ca5b799791ac33d243
+b91a78d22b1d445583d84d38f42419d5  scripts/t1_array_post.py
+# 2026-11-17 18:27 added: post-processing script (× B, footprint), written while the ToB ran; I had seen a few [100] n ≤ 9 log lines, which do not enter its logic

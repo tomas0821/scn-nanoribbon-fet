@@ -1,0 +1,7 @@
+Gate-(a) window error split, VB (>= VBM-1 eV) vs CB (<= CBM+1 eV); meV
+HSE06 sheet path: VB rms 62 (max 177, n 143) | CB rms 56 (max 139, n 90)
+HSE06 sheet grid: VB rms 62 (max 148, n 15) | CB rms 61 (max 139, n 11)
+HSE06 bulk path: VB rms 47 (max 157) | CB rms 30 (max 60)
+PBE sheet path: VB rms 52 (max 159, n 155) | CB rms 84 (max 230, n 111)
+PBE sheet grid: VB rms 48 (max 106, n 76) | CB rms 66 (max 230, n 36)
+PBE bulk path: VB rms 48 (max 158) | CB rms 52 (max 92)

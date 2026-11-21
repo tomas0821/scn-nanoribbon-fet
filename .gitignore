@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.bak
+*.swp
+# QUDEN_MATERIALS (CC BY-NC-SA 4.0) is downloaded separately and must not be committed
+benchmark/
+# Large DFT/Wannier90 by-products that are never part of the repository
+*.wfc*
+*.save/
+*.mmn
+*.amn
+*.chk
+*.cube
+*_wsvec.dat
+# T1 band cache (46 .npz, 143 MB): in the Zenodo archive only; rebuild with `scripts/t1_cg.py cache` (README)
+fits/t1/cache/

@@ -1,0 +1,4 @@
+&inputpp
+  outdir='../../../tmp_hse_slab3', prefix='hse_slab3_open', seedname='slab3_H',
+  write_amn=.true., write_mmn=.true., write_unk=.false.
+/
