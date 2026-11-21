@@ -6,6 +6,11 @@ Code and data for the paper
 > building blocks**
 > Tomas Rojas and Ruhi Thorat (manuscript in preparation; the DOI will be added on publication).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24408876.svg)](https://doi.org/10.5281/zenodo.24408876)
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.24408876 (all versions); version 1.0.0, the one the paper
+uses: https://doi.org/10.5281/zenodo.24408877.
+
 The repository holds the `scnfet` Python package and the scripts that turn deposited DFT and Wannier90 results into
 every laptop-stage number and figure of the paper:
 

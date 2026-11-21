@@ -11,6 +11,12 @@ authors:
     given-names: Ruhi
     affiliation: "Department of Physics and Astronomy, Ohio University"
 license: MIT
+doi: "10.5281/zenodo.24408876"
+repository-code: "https://github.com/tomas0821/scn-nanoribbon-fet"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24408877"
+    description: "Version 1.0.0"
 version: "1.0.0"
 date-released: "2026-11-18"
 keywords:
